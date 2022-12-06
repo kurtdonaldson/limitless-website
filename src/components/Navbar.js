@@ -14,7 +14,9 @@ function Navbar() {
         as="ul"
       >
         <ListGroup.Item as="li">
-          <img src={LimitlessLogo} alt="limitless_logo" width={"300px"} />
+          <Link to="home">
+            <img src={LimitlessLogo} alt="limitless_logo" width={"300px"} />
+          </Link>
         </ListGroup.Item>
         <ListGroup.Item className="about-link" as="li">
           <Link style={{ textDecoration: "none" }} to="about">
