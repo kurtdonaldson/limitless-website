@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { ReactDOM } from "react";
 import { Outlet, Link } from "react-router-dom";
 import ListGroup from "react-bootstrap/ListGroup";
@@ -7,40 +7,67 @@ import "../components/Navbar.css";
 import LimitlessLogo from "../images/limitless_logo.png";
 
 function Navbar() {
+  //state to set background colour class
+  const [white, setWhite] = useState(false);
+
+  const changeBackground = () => {
+    if (window.scrollY >= 120) {
+      setWhite(true);
+    } else {
+      setWhite(false);
+    }
+  };
+
+  useEffect(() => {
+    changeBackground();
+    // adding the event when scroll change background
+    window.addEventListener("scroll", changeBackground);
+  });
+
   return (
     <>
       <ListGroup
-        className="navbar p-0 d-flex flex-row justify-content-around"
+        className={
+          white
+            ? "navbar white fixed-top p-0 d-flex flex-row justify-content-between te"
+            : "navbar dark fixed-top p-0 d-flex flex-row justify-content-between"
+        }
         as="ul"
       >
         <ListGroup.Item as="li">
-          <Link to="home">
-            <img src={LimitlessLogo} alt="limitless_logo" width={"300px"} />
+          <Link to="/">
+            <img
+              src={LimitlessLogo}
+              alt="limitless_logo"
+              width={white ? "200px" : "300px"}
+            />
           </Link>
         </ListGroup.Item>
-        <ListGroup.Item className="about-link" as="li">
+        <ListGroup.Item as="li">
           <Link style={{ textDecoration: "none" }} to="about">
-            <b>About</b>
+            <b className={white ? "nav-links-dark" : "nav-links"}>About</b>
           </Link>
         </ListGroup.Item>
         <ListGroup.Item as="li">
           <Link style={{ textDecoration: "none" }} to="services">
-            <b>Services</b>
+            <b className={white ? "nav-links-dark" : "nav-links"}>Services</b>
           </Link>
         </ListGroup.Item>
         <ListGroup.Item as="li">
           <Link style={{ textDecoration: "none" }} to="conditions">
-            <b>Conditions</b>
+            <b className={white ? "nav-links-dark" : "nav-links"}>Conditions</b>
           </Link>
         </ListGroup.Item>
         <ListGroup.Item as="li">
           <a href="#">
-            <b>Contact</b>
+            <b className={white ? "nav-links-dark" : "nav-links"}>Contact</b>
           </a>
         </ListGroup.Item>
         <ListGroup.Item as="li">
           <a href="https://nzappts.gensolve.com/limitless" target="_blank">
-            <b>BOOK NOW</b>
+            <b className={white ? "bookNow-link-scroll" : "bookNow-link"}>
+              BOOK NOW
+            </b>
           </a>
         </ListGroup.Item>
       </ListGroup>

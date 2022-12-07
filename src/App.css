@@ -1,38 +1,24 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.homePage {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 5, 72, 0.829), rgba(72, 84, 192, 0.7)),
+    url("./images/swissball_back_stretch.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
+  font-family: "Poppins", sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.homePage h1 {
+  font-size: 4em;
+  font-weight: 300;
+  letter-spacing: 2px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.homePage p {
+  font-size: 1.3em;
+}
+
+/* home page contact icons styling */
+.icons {
+  color: rgb(0, 204, 255);
 }
