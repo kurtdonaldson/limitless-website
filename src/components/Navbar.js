@@ -29,8 +29,8 @@ function Navbar() {
       <ListGroup
         className={
           white
-            ? "navbar white fixed-top p-0 d-flex flex-row justify-content-between te"
-            : "navbar dark fixed-top p-0 d-flex flex-row justify-content-between"
+            ? "navbar flex-nowrap white fixed-top p-0 pe-4 d-flex flex-row justify-content-between te"
+            : "navbar flex-nowrap dark fixed-top p-0 pe-4 d-flex flex-row justify-content-between"
         }
         as="ul"
       >
@@ -65,7 +65,11 @@ function Navbar() {
         </ListGroup.Item>
         <ListGroup.Item as="li">
           <a href="https://nzappts.gensolve.com/limitless" target="_blank">
-            <b className={white ? "bookNow-link-scroll" : "bookNow-link"}>
+            <b
+              className={
+                white ? "bookNow-link-scroll d-flex" : "bookNow-link d-flex"
+              }
+            >
               BOOK NOW
             </b>
           </a>

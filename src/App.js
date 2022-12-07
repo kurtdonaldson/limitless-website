@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Conditions from "./pages/Conditions";
 import Services from "./pages/Services";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
+      <Contact />
     </div>
   );
 }

@@ -1,7 +1,6 @@
 import React from "react";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
-import { HiLocationMarker } from "react-icons/hi";
 import { MdLocationOn } from "react-icons/md";
 
 function Home() {
