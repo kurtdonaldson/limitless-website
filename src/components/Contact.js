@@ -5,6 +5,7 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { BsFacebook } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 function Contact() {
   return (
@@ -20,11 +21,34 @@ function Contact() {
       <div className="quicklinks-footer w-25 pt-3">
         <h2>QUICKLINKS</h2>
         <ul className="ps-0 pt-5">
-          <li>About</li>
-          <li>Services</li>
-          <li>Conditions</li>
-          <li>Contact</li>
-          <li>Book Online</li>
+          <li>
+            <Link className="text-decoration-none text-white" to="about">
+              About
+            </Link>
+          </li>
+          <li>
+            <Link className="text-decoration-none text-white" to="services">
+              Services
+            </Link>
+          </li>
+          <li>
+            <Link className="text-decoration-none text-white" to="conditions">
+              Conditions
+            </Link>
+          </li>
+          <li>
+            <Link className="text-decoration-none text-white" to="contact">
+              Contact
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="text-decoration-none text-white"
+              to="https://nzappts.gensolve.com/limitless"
+            >
+              Book Online
+            </Link>
+          </li>
         </ul>
       </div>
       <div className="contact-footer w-25 pt-3">
@@ -40,10 +64,14 @@ function Contact() {
             <a
               className="pe-4"
               href="https://www.facebook.com/limitlessphysio.co.nz/"
+              target="blank"
             >
               <BsFacebook />
             </a>
-            <a href="https://www.instagram.com/limitlessphysiotherapy/?hl=en">
+            <a
+              href="https://www.instagram.com/limitlessphysiotherapy/?hl=en"
+              target="blank"
+            >
               <BsInstagram />
             </a>
           </li>
