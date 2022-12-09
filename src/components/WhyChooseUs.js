@@ -1,68 +1,62 @@
 import React from "react";
-import "../components/PhysioServices.css";
-import PhysioImg from "../images/physio_treatment.avif";
-import AcupunctureImg from "../images/acupuncture.avif";
-import GymImg from "../images/gym.avif";
+import "../components/WhyChooseUs.css";
+import { BsFillBarChartFill } from "react-icons/bs";
+import { BsFillPeopleFill } from "react-icons/bs";
+import { BsPencilSquare } from "react-icons/bs";
 
-function PhysioServices() {
+function WhyChooseUs() {
   return (
-    <section className="physio-services-div text-center">
+    <section className="why-us-div text-center">
       <div>
-        <p>
-          <b className="howWeHelp">HOW WE HELP</b>
+        <h2>Why Choose Us?</h2>
+        <p className="why-us-p">
+          We like to think there are lots of reasons, but here are some of our
+          points of difference.
         </p>
-        <h2>Our Physiotherapy Services</h2>
       </div>
       <div className=" d-flex justify-content-around">
-        <div className="physio_services d-flex flex-column align-items-center">
+        <div className="why-us-container d-flex flex-column align-items-center">
           <div>
-            <img src={PhysioImg} alt="" />
+            <BsFillPeopleFill className="why_choose_icon" />
           </div>
           <div className="pt-3">
-            <h3 className="text-center pb-3">PHYSIOTHERAPY</h3>
+            <h3 className="text-center pb-3">
+              Experts in Both Physiotherapy and Gym-based rehabilitation
+            </h3>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis
               voluptates animi fuga officiis commodi, corrupti dicta obcaecati.
               Cum exercitationem pariatur eius aliquid provident quam unde
               necessitatibus nobis. Quaerat, deserunt repudiandae!
             </p>
-          </div>
-          <div>
-            <button>READ MORE</button>
           </div>
         </div>
-        <div className="physio_services d-flex flex-column align-items-center">
+        <div className="why-us-container d-flex flex-column align-items-center">
           <div>
-            <img src={AcupunctureImg} alt="" />
+            <BsPencilSquare className="why_choose_icon" />
           </div>
           <div className="pt-3">
-            <h3 className="text-center pb-3">DRY NEEDLING</h3>
+            <h3 className="text-center pb-3">Tailored Treatment Plans</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis
               voluptates animi fuga officiis commodi, corrupti dicta obcaecati.
               Cum exercitationem pariatur eius aliquid provident quam unde
               necessitatibus nobis. Quaerat, deserunt repudiandae!
             </p>
-          </div>
-          <div>
-            <button>READ MORE</button>
           </div>
         </div>
-        <div className="physio_services d-flex flex-column align-items-center">
+        <div className="why-us-container d-flex flex-column align-items-center">
           <div>
-            <img src={GymImg} alt="" />
+            <BsFillBarChartFill className="why_choose_icon" />
           </div>
           <div className="pt-3">
-            <h3 className="text-center pb-3">GYM REHABILITATION</h3>
+            <h3 className="text-center pb-3">Fast Results</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis
               voluptates animi fuga officiis commodi, corrupti dicta obcaecati.
               Cum exercitationem pariatur eius aliquid provident quam unde
               necessitatibus nobis. Quaerat, deserunt repudiandae!
             </p>
-          </div>
-          <div>
-            <button>READ MORE</button>
           </div>
         </div>
       </div>
@@ -70,4 +64,4 @@ function PhysioServices() {
   );
 }
 
-export default PhysioServices;
+export default WhyChooseUs;

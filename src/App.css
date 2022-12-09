@@ -25,10 +25,6 @@
 
 /* Mission and vision styling */
 
-/* .whoWeAre {
-  height: 80vh;
-} */
-
 .missionDiv {
   color: rgb(77, 77, 77);
   padding: 100px 50px 100px 250px;
@@ -43,6 +39,45 @@
 }
 
 .lumbarImgDiv img {
-  filter: brightness(155%) saturate(145%);
+  filter: brightness(135%);
   width: 600px;
+}
+
+/* About page styling */
+.about_page {
+  height: 600px;
+  color: white;
+  background-color: rgba(26, 32, 44, 255);
+  padding: 200px 600px 0 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+.about_page h2 {
+  letter-spacing: 2px;
+  color: rgb(0, 165, 206);
+  font-size: 1.5em;
+}
+
+.about_page h1 {
+  font-size: 4em;
+  font-weight: 300;
+  letter-spacing: 2px;
+  padding: 15px 0;
+}
+
+.about_page span {
+  color: rgb(0, 165, 206);
+}
+
+.about_page p {
+  font-size: 1.4em;
+  padding-bottom: 30px;
+}
+
+.about_page button {
+  background-color: rgb(0, 165, 206);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  letter-spacing: 2px;
 }

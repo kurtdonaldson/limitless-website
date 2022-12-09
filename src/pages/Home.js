@@ -5,6 +5,7 @@ import { MdLocationOn } from "react-icons/md";
 import LumbarStretch from "../images/lumbar_rotation_pic.jpeg";
 import Hours from "../components/Hours";
 import PhysioServices from "../components/PhysioServices";
+import WhyChooseUs from "../components/WhyChooseUs";
 
 function Home() {
   return (
@@ -51,6 +52,7 @@ function Home() {
       </section>
       <Hours />
       <PhysioServices />
+      <WhyChooseUs />
     </div>
   );
 }

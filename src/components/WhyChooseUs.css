@@ -1,47 +1,57 @@
 .howWeHelp {
-  letter-spacing: 4px;
-  color: rgb(0, 165, 206);
+  letter-spacing: 2px;
+  color: rgb(77, 171, 177);
   font-size: 1.5em;
 }
 
-.physio-services-div {
+.why-us-div {
   font-family: "Poppins", sans-serif;
   padding-bottom: 100px;
   padding-top: 50px;
 }
 
-.physio-services-div h2 {
+.why-us-div h2 {
   font-size: 4em;
   font-weight: 300;
   padding-bottom: 30px;
 }
 
-.physio_services {
+.why-us-p {
+  font-size: 1.3em;
+  padding-bottom: 25px;
+}
+
+.why-us-container {
   width: 400px;
   color: rgb(77, 77, 77);
 }
 
-.physio_services img {
+.why-us-container img {
   width: 400px;
   height: 267px;
   object-fit: cover;
 }
 
-.physio_services h3 {
+.why-us-container h3 {
   font-size: 1.3em;
   font-weight: 600;
   letter-spacing: 2px;
 }
 
-.physio_services p {
+.why-us-container p {
   line-height: 2;
 }
 
-.physio_services button {
+.why-us-container button {
   border: none;
-  background-color: rgb(0, 165, 206);
+  background-color: rgb(77, 171, 177);
   color: white;
   width: 400px;
   border-radius: 15px;
   padding: 5px 0;
+}
+
+.why_choose_icon {
+  font-size: 8em;
+  color: rgb(77, 171, 177);
 }
