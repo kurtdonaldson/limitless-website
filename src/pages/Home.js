@@ -9,7 +9,7 @@ import PhysioServices from "../components/PhysioServices";
 function Home() {
   return (
     <div>
-      <div className="homePage d-flex justify-content-center align-items-center">
+      <section className="homePage d-flex justify-content-center align-items-center">
         <div className="d-flex flex-column align-items-center">
           <h1 className="p-3">Limitless Physiotherapy</h1>
           <p>
@@ -25,9 +25,9 @@ function Home() {
             </p>
           </div>
         </div>
-      </div>
+      </section>
       <section className="whoWeAre d-flex flex-wrap justify-space-between">
-        <div className="missionDiv w-50 d-flex flex-column justify-content-center">
+        <div className="missionDiv w-50 d-flex flex-column ">
           <h2 className="pb-3">Our Mission and Vision</h2>
           <p>
             At Limitless Physiotherapy we are dedicated to providing top quality
@@ -46,7 +46,7 @@ function Home() {
           </p>
         </div>
         <div className="lumbarImgDiv w-50 d-flex flex-column justify-content-center align-items-center">
-          <img src={LumbarStretch} alt="" width="100%%" />
+          <img src={LumbarStretch} alt="" />
         </div>
       </section>
       <Hours />

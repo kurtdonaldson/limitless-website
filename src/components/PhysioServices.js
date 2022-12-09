@@ -1,23 +1,25 @@
 import React from "react";
-import "../components/Contact.css";
+import "../components/PhysioServices.css";
 import PhysioImg from "../images/physio_treatment.avif";
 import AcupunctureImg from "../images/acupuncture.avif";
 import GymImg from "../images/gym.avif";
 
 function PhysioServices() {
   return (
-    <div className="text-center">
+    <div className="physio-services-div text-center">
       <div>
-        <p>HOW WE HELP</p>
+        <p>
+          <b className="howWeHelp">HOW WE HELP</b>
+        </p>
         <h2>Our Physiotherapy Services</h2>
       </div>
-      <div className="d-flex">
-        <div className="physio_treatment">
+      <div className=" d-flex justify-content-around">
+        <div className="physio_services d-flex flex-column align-items-center">
           <div>
-            <img src={PhysioImg} alt="" width="250vw" />
+            <img src={PhysioImg} alt="" />
           </div>
-          <div>
-            <h3>PHYSIOTHERAPY</h3>
+          <div className="pt-3">
+            <h3 className="text-center pb-3">PHYSIOTHERAPY</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis
               voluptates animi fuga officiis commodi, corrupti dicta obcaecati.
@@ -29,12 +31,12 @@ function PhysioServices() {
             <button>READ MORE</button>
           </div>
         </div>
-        <div className="needling_treatment">
+        <div className="physio_services d-flex flex-column align-items-center">
           <div>
-            <img src={AcupunctureImg} alt="" width="250vw" />
+            <img src={AcupunctureImg} alt="" />
           </div>
-          <div>
-            <h3>DRY NEEDLING</h3>
+          <div className="pt-3">
+            <h3 className="text-center pb-3">DRY NEEDLING</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis
               voluptates animi fuga officiis commodi, corrupti dicta obcaecati.
@@ -46,12 +48,12 @@ function PhysioServices() {
             <button>READ MORE</button>
           </div>
         </div>
-        <div className="gymRehab_treatment">
+        <div className="physio_services d-flex flex-column align-items-center">
           <div>
-            <img src={GymImg} alt="" width="250vw" />
+            <img src={GymImg} alt="" />
           </div>
-          <div>
-            <h3>GYM REHABILITATION</h3>
+          <div className="pt-3">
+            <h3 className="text-center pb-3">GYM REHABILITATION</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis
               voluptates animi fuga officiis commodi, corrupti dicta obcaecati.
