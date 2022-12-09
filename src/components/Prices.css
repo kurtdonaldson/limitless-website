@@ -1,0 +1,22 @@
+.prices_section {
+  margin: 100px 0;
+}
+
+.prices_section h2 {
+  color: rgb(77, 77, 77);
+}
+
+.prices_card > h3 {
+  font-size: 1.5em;
+  padding-bottom: 10px;
+}
+
+.prices_card {
+  background-color: rgba(26, 32, 44, 255);
+  color: white;
+  padding: 50px;
+}
+
+.prices_card li {
+  padding-bottom: 5px;
+}

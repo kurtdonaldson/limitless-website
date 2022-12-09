@@ -6,17 +6,16 @@
   font-family: "Poppins", sans-serif;
 }
 
-.quicklinks-footer {
-  padding-left: 5vw;
-}
-
-.quicklinks-footer ul {
+.footer ul {
   list-style-type: none;
 }
 
-.quicklinks-footer ul li,
-.contact-footer ul li {
-  padding-bottom: 1.5vh;
+.footer ul li {
+  padding-bottom: 1em;
+}
+
+.quicklinks-footer {
+  padding-left: 5vw;
 }
 
 footer h2 {
@@ -24,11 +23,17 @@ footer h2 {
   letter-spacing: 0.2em;
 }
 
-.contact-footer ul {
-  list-style-type: none;
-}
-
 .contact-footer a {
   font-size: 1.4em;
   color: rgb(0, 204, 255);
+}
+
+.hours_ul {
+  padding-right: 130px;
+}
+
+.hours_ul span:nth-last-child(2) {
+  border-bottom: 1px dotted white;
+  margin-bottom: 10px;
+  width: 20%;
 }

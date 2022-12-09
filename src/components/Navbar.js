@@ -54,12 +54,7 @@ function Navbar() {
           </Link>
         </ListGroup.Item>
         <ListGroup.Item as="li">
-          <Link style={{ textDecoration: "none" }} to="conditions">
-            <b className={white ? "nav-links-dark" : "nav-links"}>Conditions</b>
-          </Link>
-        </ListGroup.Item>
-        <ListGroup.Item as="li">
-          <a href="#">
+          <a href="#footer">
             <b className={white ? "nav-links-dark" : "nav-links"}>Contact</b>
           </a>
         </ListGroup.Item>

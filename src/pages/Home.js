@@ -29,7 +29,7 @@ function Home() {
       </section>
       <section className="whoWeAre d-flex flex-wrap justify-space-between">
         <div className="missionDiv w-50 d-flex flex-column ">
-          <h2 className="pb-3">Our Mission and Vision</h2>
+          <h2 className="pb-3">OUR MISSION AND VISION</h2>
           <p>
             At Limitless Physiotherapy we are dedicated to providing top quality
             physiotherapy treatment in order to help people reach their

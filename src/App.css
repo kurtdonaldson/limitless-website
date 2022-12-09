@@ -1,3 +1,7 @@
+.App {
+  font-family: "Poppins", sans-serif;
+}
+
 .homePage {
   height: 100vh;
   background: linear-gradient(rgba(0, 5, 72, 0.829), rgba(72, 84, 192, 0.7)),
@@ -44,6 +48,7 @@
 }
 
 /* About page styling */
+
 .about_page {
   height: 600px;
   color: white;
@@ -80,4 +85,87 @@
   border: none;
   padding: 15px 30px;
   letter-spacing: 2px;
+}
+
+.about_name {
+  color: rgb(0, 126, 158);
+  font-size: 1.4em;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+.profile_pic img {
+  width: 600px;
+  margin-left: 180px;
+}
+
+.profile_pic figcaption {
+  margin-left: 180px;
+}
+
+.profile_blurb div {
+  color: rgb(77, 77, 77);
+  line-height: 2;
+  width: 600px;
+}
+
+.img_caption_div {
+  margin: 100px;
+}
+
+/* Services page */
+.services_page {
+  height: 600px;
+  color: white;
+  background-color: rgba(26, 32, 44, 255);
+  padding: 200px 600px 0 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+.services_page h2 {
+  letter-spacing: 2px;
+  color: rgb(0, 165, 206);
+  font-size: 1.5em;
+}
+
+.services_page h1 {
+  font-size: 4em;
+  font-weight: 300;
+  letter-spacing: 2px;
+  padding: 15px 0;
+}
+
+.services_page span {
+  color: rgb(0, 165, 206);
+}
+
+.services_page p {
+  font-size: 1.4em;
+  padding-bottom: 30px;
+}
+
+.services_page button {
+  background-color: rgb(0, 165, 206);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  letter-spacing: 2px;
+}
+
+.treatments_offered {
+  color: rgb(77, 77, 77);
+  padding: 100px;
+}
+
+.treatments_offered img {
+  width: 600px;
+}
+
+.treatments_offered ul {
+  width: 450px;
+}
+
+.treatments_offered li {
+  font-size: 1.4em;
+  padding-bottom: 10px;
 }
