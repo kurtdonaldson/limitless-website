@@ -22,3 +22,18 @@
 .icons {
   color: rgb(0, 204, 255);
 }
+
+/* Mission and vision styling */
+
+/* .whoWeAre {
+  height: 80vh;
+} */
+
+.missionDiv {
+  color: rgb(77, 77, 77);
+  padding: 100px 100px;
+}
+
+.lumbarImgDiv {
+  padding: 100px 100px;
+}
