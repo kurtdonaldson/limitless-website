@@ -43,17 +43,17 @@ function Navbar() {
             />
           </Link>
         </ListGroup.Item>
-        <ListGroup.Item as="li">
+        <ListGroup.Item className="about_link" as="li">
           <Link style={{ textDecoration: "none" }} to="about">
             <b className={white ? "nav-links-dark" : "nav-links"}>About</b>
           </Link>
         </ListGroup.Item>
-        <ListGroup.Item as="li">
+        <ListGroup.Item className="services_link" as="li">
           <Link style={{ textDecoration: "none" }} to="services">
             <b className={white ? "nav-links-dark" : "nav-links"}>Services</b>
           </Link>
         </ListGroup.Item>
-        <ListGroup.Item as="li">
+        <ListGroup.Item className="contact_link" as="li">
           <a href="#footer">
             <b className={white ? "nav-links-dark" : "nav-links"}>Contact</b>
           </a>

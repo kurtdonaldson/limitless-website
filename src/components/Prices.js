@@ -4,8 +4,8 @@ import "../components/Prices.css";
 function Prices() {
   return (
     <section className="prices_section d-flex flex-column justify-content-center align-items-center">
-      <h2>LIMITLESS PHYSIO CLINIC FEES</h2>
       <div className="prices_card">
+        <h2>LIMITLESS PHYSIO CLINIC FEES</h2>
         <h3>ACC Consultation Charges</h3>
         <ul>
           <li>New Injury /Initial Consultation 45-60 min $25</li>

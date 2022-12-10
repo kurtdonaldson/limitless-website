@@ -19,9 +19,35 @@
   color: rgb(0, 29, 72);
 }
 
-/* .navbar li:nth-of-type(2) {
-  margin-left: 20vw;
-} */
+.about_link {
+  padding-left: 20vw;
+}
+
+.nav-links {
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.nav-links:hover {
+  background-color: white;
+  color: rgb(0, 29, 72);
+  padding: 10px;
+  font-weight: 600;
+}
+
+.nav-links-dark {
+  padding: 10px;
+}
+
+.nav-links-dark:nth-of-type(1) {
+}
+
+.nav-links-dark:hover {
+  background-color: rgb(0, 29, 72);
+  color: white;
+  padding: 10px;
+  font-weight: 600;
+}
 
 .bookNow-link {
   background-color: white;
