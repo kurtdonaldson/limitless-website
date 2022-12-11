@@ -9,13 +9,13 @@ export default (props) => {
         Home
       </a>
       <a className="menu-item" href="/salads">
-        Salads
+        Services
       </a>
       <a className="menu-item" href="/pizzas">
-        Pizzas
+        Conditions
       </a>
       <a className="menu-item" href="/desserts">
-        Desserts
+        Contact
       </a>
     </Menu>
   );

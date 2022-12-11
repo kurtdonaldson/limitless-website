@@ -26,11 +26,12 @@ function Navbar() {
 
   return (
     <>
+      <Sidebar />
       <ListGroup
         className={
           white
-            ? "navbar flex-nowrap white fixed-top p-0 pe-4 d-flex flex-row justify-content-between te"
-            : "navbar flex-nowrap dark fixed-top p-0 pe-4 d-flex flex-row justify-content-between"
+            ? "navbar flex-nowrap white fixed-top p-0 pe-4 d-none flex-row justify-content-between"
+            : "navbar flex-nowrap dark fixed-top p-0 pe-4 d-none flex-row justify-content-between"
         }
         as="ul"
       >
@@ -73,10 +74,6 @@ function Navbar() {
             </b>
           </a>
         </ListGroup.Item>
-        <Sidebar
-          pageWrapId={"page-wrap"}
-          outerContainerId={"outer-container"}
-        />
       </ListGroup>
       <Outlet />
     </>
