@@ -6,6 +6,13 @@ import { MdEmail } from "react-icons/md";
 import { BsFacebook } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import Map from "./Map";
+
+const location = {
+  address: "80 Delta Ave, New Lynn, Auckland, New Zealand.",
+  lat: -36.901922882593695,
+  lng: 174.68603692861316,
+};
 
 function Contact() {
   return (
@@ -105,6 +112,7 @@ function Contact() {
         </div>
         <div className="location-footer w-25 pt-3">
           <h2>LOCATION</h2>
+          <Map location={location} zoomLevel={15} />
         </div>
       </div>
     </footer>

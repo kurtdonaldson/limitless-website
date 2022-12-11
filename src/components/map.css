@@ -8,7 +8,7 @@
 
 .google-map {
   width: 100%;
-  height: 60vh;
+  height: 40vh;
 }
 
 .pin {
@@ -16,10 +16,12 @@
   align-items: center;
   width: 180px;
   color: var(--main-blue);
+  transform: translate(-57px, -140px);
 }
 
 .pin-icon {
   font-size: 4rem;
+  color: blue;
 }
 
 .pin-text {
@@ -28,7 +30,7 @@
 
 @media screen and (min-width: 799px) {
   .google-map {
-    height: 80vh;
+    height: 60vh;
   }
 
   .map-h2 {

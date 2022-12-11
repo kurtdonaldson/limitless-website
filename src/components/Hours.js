@@ -48,8 +48,8 @@ function Hours() {
           </li>
         </ul>
       </div>
-      <div className="w-50">
-        <Map location={location} zoomLevel={17} />
+      <div className="hours_map_container w-50">
+        <Map location={location} zoomLevel={15} />
       </div>
     </section>
   );
