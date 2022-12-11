@@ -4,6 +4,7 @@ import ListGroup from "react-bootstrap/ListGroup";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../components/Navbar.css";
 import LimitlessLogo from "../images/limitless_logo.png";
+import Sidebar from "./Sidebar";
 
 function Navbar() {
   //state to set background colour class
@@ -72,6 +73,10 @@ function Navbar() {
             </b>
           </a>
         </ListGroup.Item>
+        <Sidebar
+          pageWrapId={"page-wrap"}
+          outerContainerId={"outer-container"}
+        />
       </ListGroup>
       <Outlet />
     </>

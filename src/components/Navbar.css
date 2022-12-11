@@ -39,9 +39,6 @@
   padding: 10px;
 }
 
-.nav-links-dark:nth-of-type(1) {
-}
-
 .nav-links-dark:hover {
   background-color: rgb(0, 29, 72);
   color: white;
