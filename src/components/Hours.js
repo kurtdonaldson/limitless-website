@@ -1,5 +1,12 @@
 import React from "react";
 import "../components/Hours.css";
+import Map from "./Map.jsx";
+
+const location = {
+  address: "80 Delta Ave, New Lynn, Auckland, New Zealand.",
+  lat: -36.901922882593695,
+  lng: 174.68603692861316,
+};
 
 function Hours() {
   return (
@@ -41,7 +48,9 @@ function Hours() {
           </li>
         </ul>
       </div>
-      <div className="w-50"></div>
+      <div className="w-50">
+        <Map location={location} zoomLevel={17} />
+      </div>
     </section>
   );
 }
