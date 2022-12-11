@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { ReactDOM } from "react";
 import { Outlet, Link } from "react-router-dom";
 import ListGroup from "react-bootstrap/ListGroup";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -59,7 +58,11 @@ function Navbar() {
           </a>
         </ListGroup.Item>
         <ListGroup.Item as="li">
-          <a href="https://nzappts.gensolve.com/limitless" target="_blank">
+          <a
+            href="https://nzappts.gensolve.com/limitless"
+            target="_blank"
+            rel="noreferrer"
+          >
             <b
               className={
                 white ? "bookNow-link-scroll d-flex" : "bookNow-link d-flex"
