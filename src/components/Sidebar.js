@@ -1,22 +1,50 @@
 import React from "react";
 import { slide as Menu } from "react-burger-menu";
 import "../components/Sidebar.css";
+import LimitlessLogo from "../images/limitless_logo.png";
+import ListGroup from "react-bootstrap/ListGroup";
+import { Outlet, Link } from "react-router-dom";
 
-export default (props) => {
+const Sidebar = ({ display }) => {
   return (
-    <Menu>
-      <a className="menu-item" href="/">
-        Home
-      </a>
-      <a className="menu-item" href="/salads">
-        Services
-      </a>
-      <a className="menu-item" href="/pizzas">
-        Conditions
-      </a>
-      <a className="menu-item" href="/desserts">
-        Contact
-      </a>
-    </Menu>
+    <div className={display}>
+      <img className="burger-limitless-logo" src={LimitlessLogo} alt="" />
+      <Menu>
+        <ListGroup>
+          <ListGroup.Item>
+            <Link className="bm-item" to="/">
+              Home
+            </Link>
+          </ListGroup.Item>
+          <ListGroup.Item>
+            <Link className="bm-item" to="about">
+              About
+            </Link>
+          </ListGroup.Item>
+          <ListGroup.Item>
+            <Link className="bm-item" to="services">
+              Services
+            </Link>
+          </ListGroup.Item>
+          <ListGroup.Item>
+            <Link className="bm-item" to="contact">
+              Contact
+            </Link>
+          </ListGroup.Item>
+          <ListGroup.Item>
+            <a
+              href="https://nzappts.gensolve.com/limitless"
+              target="_blank"
+              rel="noreferrer"
+              className="bm-item"
+            >
+              <b>BOOK NOW</b>
+            </a>
+          </ListGroup.Item>
+        </ListGroup>
+      </Menu>
+    </div>
   );
 };
+
+export default Sidebar;

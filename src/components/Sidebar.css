@@ -81,3 +81,15 @@
   padding-bottom: 10px;
   font-size: 1.5em;
 }
+
+/* Logo styling */
+.burger-limitless-logo {
+  height: 90px;
+  position: fixed;
+  padding-top: 15px;
+}
+
+.list-group-item {
+  background-color: #373a47;
+  border: none;
+}
