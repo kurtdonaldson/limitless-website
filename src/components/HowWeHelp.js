@@ -33,9 +33,15 @@ function HowWeHelp() {
             <li>Hip impingement/labral injuries</li>
           </ul>
         </div>
-        <button className="align-self-center">
-          BOOK A PHYSIOTHERAPY APPOINTMENT
-        </button>
+        <a
+          className="book-button align-self-center"
+          type="button"
+          href="https://nzappts.gensolve.com/limitless"
+          target="_blank"
+          rel="noreferrer"
+        >
+          BOOK A PHYSIOTHERAPY APPOINTMENT ONLINE
+        </a>
       </div>
     </section>
   );

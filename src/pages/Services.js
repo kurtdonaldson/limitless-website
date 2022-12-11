@@ -17,7 +17,15 @@ function Services() {
           post-operative rehabilitation, nerve conditions, ligaments, joints and
           muscular injuries.
         </p>
-        <button>BOOK ONLINE</button>
+        <a
+          className="book-button"
+          type="button"
+          href="https://nzappts.gensolve.com/limitless"
+          target="_blank"
+          rel="noreferrer"
+        >
+          BOOK ONLINE
+        </a>
       </header>
       <main>
         <section className="treatments_offered d-flex">

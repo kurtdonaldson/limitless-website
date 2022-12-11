@@ -14,7 +14,15 @@ function About() {
           physiotherapy treatment in order to help people reach their functional
           goals.
         </p>
-        <button>BOOK ONLINE</button>
+        <a
+          className="book-button"
+          type="button"
+          href="https://nzappts.gensolve.com/limitless"
+          target="_blank"
+          rel="noreferrer"
+        >
+          BOOK ONLINE
+        </a>
       </header>
       <main className="img_caption_div d-flex justify-content-start">
         <div className="profile_pic w-50">
