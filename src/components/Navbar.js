@@ -4,6 +4,7 @@ import ListGroup from "react-bootstrap/ListGroup";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../components/Navbar.css";
 import LimitlessLogo from "../images/limitless_logo.png";
+import Sidebar from "./Sidebar";
 
 function Navbar() {
   //state to set background colour class
@@ -25,11 +26,12 @@ function Navbar() {
 
   return (
     <>
+      <Sidebar />
       <ListGroup
         className={
           white
-            ? "navbar flex-nowrap white fixed-top p-0 pe-4 d-flex flex-row justify-content-between te"
-            : "navbar flex-nowrap dark fixed-top p-0 pe-4 d-flex flex-row justify-content-between"
+            ? "navbar flex-nowrap white fixed-top p-0 pe-4 d-none flex-row justify-content-between"
+            : "navbar flex-nowrap dark fixed-top p-0 pe-4 d-none flex-row justify-content-between"
         }
         as="ul"
       >
