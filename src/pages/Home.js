@@ -27,8 +27,8 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className="whoWeAre d-flex flex-wrap justify-space-between">
-        <div className="missionDiv w-50 d-flex flex-column ">
+      <section className="whoWeAre d-flex flex-wrap flex-column flex-lg-row justify-space-between align-items-center">
+        <div className="missionDiv w-50 d-flex flex-column p-5">
           <h2 className="pb-3">OUR MISSION AND VISION</h2>
           <p>
             At Limitless Physiotherapy we are dedicated to providing top quality
@@ -40,13 +40,9 @@ function Home() {
             assessment and follow up with the appropriate means of physiotherapy
             treatment.
           </p>
-          <p>
-            Treatment may include manual therapy, dry needling, gym based
-            rehabilitation and various other treatment modalities. Please see
-            services tab for more details.
-          </p>
+          <p>This may include manual therapy, dry needling, gym based rehabilitation and various other treatment modalities.</p>
         </div>
-        <div className="lumbarImgDiv w-50 d-flex flex-column justify-content-center align-items-center">
+        <div className="lumbarImgDiv w-50 d-flex flex-column p-5">
           <img className="img-fluid" src={LumbarStretch} alt="" />
         </div>
       </section>
