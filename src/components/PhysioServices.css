@@ -17,12 +17,12 @@
 }
 
 .physio_services {
-  width: 400px;
+  /* width: 400px; */
   color: rgb(77, 77, 77);
 }
 
 .physio_services img {
-  width: 400px;
+  width: 25vw;
   height: 267px;
   object-fit: cover;
 }
@@ -41,7 +41,26 @@
   border: none;
   background-color: rgb(0, 165, 206);
   color: white;
-  width: 400px;
+  width: 25vw;
   border-radius: 15px;
   padding: 5px 0;
+}
+
+.physio_services_modal_text{
+  width: 25vw;
+}
+
+@media (max-width: 991px) {
+  .physio_services button {
+    width: 75vw;
+   
+  }
+  
+  .physio_services_modal_text{
+    width: 75vw;
+  }
+  .physio_services img {
+    width: 75vw;
+   
+  }
 }

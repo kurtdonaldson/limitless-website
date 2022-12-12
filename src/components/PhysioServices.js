@@ -13,12 +13,12 @@ function PhysioServices() {
         </p>
         <h2>Our Physiotherapy Services</h2>
       </div>
-      <div className=" d-flex justify-content-around">
-        <div className="physio_services d-flex flex-column align-items-center">
+      <div className=" d-flex flex-column flex-lg-row justify-content-center align-items-center">
+        <div className="physio_services d-flex flex-column align-items-center m-2">
           <div>
-            <img src={PhysioImg} alt="" />
+            <img className="img-fluid" src={PhysioImg} alt="" />
           </div>
-          <div className="pt-3">
+          <div className="physio_services_modal_text pt-3">
             <h3 className="text-center pb-3">PHYSIOTHERAPY</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis
@@ -31,11 +31,11 @@ function PhysioServices() {
             <button>READ MORE</button>
           </div>
         </div>
-        <div className="physio_services d-flex flex-column align-items-center">
+        <div className="physio_services d-flex flex-column align-items-center m-4">
           <div>
-            <img src={AcupunctureImg} alt="" />
+            <img className="img-fluid" src={AcupunctureImg} alt="" />
           </div>
-          <div className="pt-3">
+          <div className="physio_services_modal_text pt-3">
             <h3 className="text-center pb-3">DRY NEEDLING</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis
@@ -48,11 +48,11 @@ function PhysioServices() {
             <button>READ MORE</button>
           </div>
         </div>
-        <div className="physio_services d-flex flex-column align-items-center">
+        <div className="physio_services d-flex flex-column align-items-center m-4">
           <div>
-            <img src={GymImg} alt="" />
+            <img className="img-fluid" src={GymImg} alt="" />
           </div>
-          <div className="pt-3">
+          <div className="physio_services_modal_text pt-3">
             <h3 className="text-center pb-3">GYM REHABILITATION</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis
