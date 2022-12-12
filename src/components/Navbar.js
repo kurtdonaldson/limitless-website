@@ -19,13 +19,7 @@ function Navbar() {
   //Function to change windowWidth state to current window width
   const setWindowDimensions = () => {
     setWindowWidth(window.innerWidth);
-    if (window.innerWidth > 935) {
-      setBurgerMenu(false);
-      console.log(burgerMenu);
-    } else {
-      setBurgerMenu(true);
-      console.log(burgerMenu);
-    }
+    window.innerWidth > 935 ? setBurgerMenu(false) : setBurgerMenu(true);
   };
 
   //We use useEffect hook to call setWindowDimensions and update window width whenever width changes.
@@ -34,6 +28,18 @@ function Navbar() {
     window.addEventListener("resize", setWindowDimensions);
     return () => {
       window.removeEventListener("resize", setWindowDimensions);
+    };
+  }, []);
+
+  //Useeffect hook for when window reloads. If we don't have this, window will
+  useEffect(() => {
+    window.addEventListener("load", () => {
+      window.innerWidth > 935 ? setBurgerMenu(false) : setBurgerMenu(true);
+    });
+    return () => {
+      window.removeEventListener("load", () => {
+        window.innerWidth > 935 ? setBurgerMenu(false) : setBurgerMenu(true);
+      });
     };
   }, []);
 

@@ -12,10 +12,10 @@ function Home() {
     <div>
       <section className="homePage d-flex justify-content-center align-items-center">
         <div className="d-flex flex-column align-items-center">
-          <h1 className="p-3 display-1">Limitless Physiotherapy</h1>
+          <h1 className="p-3 display-1 text-center">Limitless Physiotherapy</h1>
           <p>
-            <MdLocationOn className="icons" /> 80 Delta Ave, New Lynn, Auckland
-            0600
+            <MdLocationOn className="icons text-center" /> 80 Delta Ave, New
+            Lynn, Auckland 0600
           </p>
           <div className="d-flex flex-column flex-sm-row phoneEmailContainer">
             <p className="pt-3 pe-4">
@@ -47,7 +47,7 @@ function Home() {
           </p>
         </div>
         <div className="lumbarImgDiv w-50 d-flex flex-column justify-content-center align-items-center">
-          <img src={LumbarStretch} alt="" />
+          <img className="img-fluid" src={LumbarStretch} alt="" />
         </div>
       </section>
       <Hours />

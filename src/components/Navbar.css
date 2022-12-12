@@ -75,3 +75,12 @@
 .dark {
   background-color: rgba(255, 255, 255, 0);
 }
+
+/* @media (max-width: 935px) {
+  .white {
+    display: none;
+  }
+  .dark {
+    display: none;
+  }
+} */
