@@ -10,8 +10,8 @@ const location = {
 
 function Hours() {
   return (
-    <section className="hours_section d-flex justify-content-center align-items-center ps-5 pe-5">
-      <div className="physio_hours w-50">
+    <section className="hours_section d-flex flex-column flex-lg-row justify-content-center align-items-center pt-4 pb-4 ps-5 pe-5">
+      <div className="physio_hours p-2">
         <h2 className="pb-4">PHYSIOTHERAPIST NEW LYNN CLINIC</h2>
         <p className="pb-3">
           Limitless Physiotherapy is your local provider of Physiotherapy
@@ -48,7 +48,7 @@ function Hours() {
           </li>
         </ul>
       </div>
-      <div className="hours_map_container w-50">
+      <div className="hours_map_container m-4">
         <Map location={location} zoomLevel={15} />
       </div>
     </section>
