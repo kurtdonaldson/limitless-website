@@ -11,14 +11,16 @@ function Navbar() {
   const [white, setWhite] = useState(false);
 
   //State to hide links and display burger menu when screen size < 805px
-  const [burgerMenu, setBurgerMenu] = useState(false);
+  //On initial load we also want to know screen size to know what should be loaded on page
+  const [burgerMenu, setBurgerMenu] = useState(
+    window.innerWidth > 935 ? false : true
+  );
 
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  // const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   //Function to change nav and burger displays based on screen width
 
   //Function to change windowWidth state to current window width
   const setWindowDimensions = () => {
-    setWindowWidth(window.innerWidth);
     window.innerWidth > 935 ? setBurgerMenu(false) : setBurgerMenu(true);
   };
 
@@ -28,18 +30,6 @@ function Navbar() {
     window.addEventListener("resize", setWindowDimensions);
     return () => {
       window.removeEventListener("resize", setWindowDimensions);
-    };
-  }, []);
-
-  //Useeffect hook for when window reloads. If we don't have this, window will
-  useEffect(() => {
-    window.addEventListener("load", () => {
-      window.innerWidth > 935 ? setBurgerMenu(false) : setBurgerMenu(true);
-    });
-    return () => {
-      window.removeEventListener("load", () => {
-        window.innerWidth > 935 ? setBurgerMenu(false) : setBurgerMenu(true);
-      });
     };
   }, []);
 
