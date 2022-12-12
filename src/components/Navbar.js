@@ -19,7 +19,7 @@ function Navbar() {
   //Function to change windowWidth state to current window width
   const setWindowDimensions = () => {
     setWindowWidth(window.innerWidth);
-    if (window.innerWidth > 805) {
+    if (window.innerWidth > 935) {
       setBurgerMenu(false);
       console.log(burgerMenu);
     } else {
@@ -62,54 +62,64 @@ function Navbar() {
         }
         as="ul"
       >
-        <ListGroup.Item as="li" className={burgerMenu ? "d-none" : "d-inline"}>
-          <Link to="/">
-            <img
-              src={LimitlessLogo}
-              alt="limitless_logo"
-              width={white ? "200px" : "300px"}
-            />
-          </Link>
-        </ListGroup.Item>
-        <ListGroup.Item
-          className={burgerMenu ? "about_link d-none" : "about_link"}
-          as="li"
-        >
-          <Link style={{ textDecoration: "none" }} to="about">
-            <b className={white ? "nav-links-dark" : "nav-links"}>About</b>
-          </Link>
-        </ListGroup.Item>
-        <ListGroup.Item
-          className={burgerMenu ? "services_link d-none" : "services_link"}
-          as="li"
-        >
-          <Link style={{ textDecoration: "none" }} to="services">
-            <b className={white ? "nav-links-dark" : "nav-links"}>Services</b>
-          </Link>
-        </ListGroup.Item>
-        <ListGroup.Item
-          className={burgerMenu ? "contact_link d-none" : "contact_link"}
-          as="li"
-        >
-          <a href="#footer">
-            <b className={white ? "nav-links-dark" : "nav-links"}>Contact</b>
-          </a>
-        </ListGroup.Item>
-        <ListGroup.Item as="li" className={burgerMenu ? "d-none" : "d-inline"}>
-          <a
-            href="https://nzappts.gensolve.com/limitless"
-            target="_blank"
-            rel="noreferrer"
+        <div className="logo-navbar-div">
+          <ListGroup.Item
+            as="li"
+            className={burgerMenu ? "d-none" : "d-inline"}
           >
-            <b
-              className={
-                white ? "bookNow-link-scroll d-flex" : "bookNow-link d-flex"
-              }
+            <Link to="/">
+              <img
+                src={LimitlessLogo}
+                alt="limitless_logo"
+                width={white ? "200px" : "300px"}
+              />
+            </Link>
+          </ListGroup.Item>
+        </div>
+        <div className="menu-navbar-div d-flex w-50 justify-content-between">
+          <ListGroup.Item
+            className={burgerMenu ? "about_link d-none" : "about_link"}
+            as="li"
+          >
+            <Link style={{ textDecoration: "none" }} to="about">
+              <b className={white ? "nav-links-dark" : "nav-links"}>About</b>
+            </Link>
+          </ListGroup.Item>
+          <ListGroup.Item
+            className={burgerMenu ? "services_link d-none" : "services_link"}
+            as="li"
+          >
+            <Link style={{ textDecoration: "none" }} to="services">
+              <b className={white ? "nav-links-dark" : "nav-links"}>Services</b>
+            </Link>
+          </ListGroup.Item>
+          <ListGroup.Item
+            className={burgerMenu ? "contact_link d-none" : "contact_link"}
+            as="li"
+          >
+            <a href="#footer">
+              <b className={white ? "nav-links-dark" : "nav-links"}>Contact</b>
+            </a>
+          </ListGroup.Item>
+          <ListGroup.Item
+            as="li"
+            className={burgerMenu ? "d-none" : "d-inline"}
+          >
+            <a
+              href="https://nzappts.gensolve.com/limitless"
+              target="_blank"
+              rel="noreferrer"
             >
-              BOOK NOW
-            </b>
-          </a>
-        </ListGroup.Item>
+              <b
+                className={
+                  white ? "bookNow-link-scroll d-flex" : "bookNow-link d-flex"
+                }
+              >
+                BOOK NOW
+              </b>
+            </a>
+          </ListGroup.Item>
+        </div>
       </ListGroup>
       <Outlet />
     </>

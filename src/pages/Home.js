@@ -12,16 +12,16 @@ function Home() {
     <div>
       <section className="homePage d-flex justify-content-center align-items-center">
         <div className="d-flex flex-column align-items-center">
-          <h1 className="p-3">Limitless Physiotherapy</h1>
+          <h1 className="p-3 display-1">Limitless Physiotherapy</h1>
           <p>
             <MdLocationOn className="icons" /> 80 Delta Ave, New Lynn, Auckland
             0600
           </p>
-          <div className="d-flex phoneEmailContainer">
-            <p className="p-3">
+          <div className="d-flex flex-column flex-sm-row phoneEmailContainer">
+            <p className="pt-3 pe-4">
               <BsFillTelephoneFill className="icons" /> 022 460 8079
             </p>
-            <p className="p-3">
+            <p className="pt-3">
               <MdEmail className="icons" /> info@limitlessphysio.co.nz
             </p>
           </div>
