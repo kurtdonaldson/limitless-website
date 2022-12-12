@@ -33,6 +33,7 @@
   color: rgb(77, 77, 77);
   line-height: 2;
   font-family: "Poppins", sans-serif;
+  padding: 5%;
 }
 
 /* .lumbarImgDiv {
@@ -42,8 +43,18 @@
 .lumbarImgDiv img {
   filter: brightness(135%);
   width: 600px;
+  padding: 5%;
 }
 
+@media only screen and (max-width: 991px) {
+  .missionDiv {
+    padding: 20px 0;
+  }
+  .lumbarImgDiv img {
+    padding: 20px 0;
+  }
+  
+}
 
 /* About page styling */
 

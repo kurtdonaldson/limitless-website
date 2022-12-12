@@ -28,7 +28,7 @@ function Home() {
         </div>
       </section>
       <section className="whoWeAre d-flex flex-wrap flex-column flex-lg-row justify-space-between align-items-center">
-        <div className="missionDiv w-50 d-flex flex-column p-5">
+        <div className="missionDiv w-50 d-flex flex-column">
           <h2 className="pb-3">OUR MISSION AND VISION</h2>
           <p>
             At Limitless Physiotherapy we are dedicated to providing top quality
@@ -42,7 +42,7 @@ function Home() {
           </p>
           <p>This may include manual therapy, dry needling, gym based rehabilitation and various other treatment modalities.</p>
         </div>
-        <div className="lumbarImgDiv w-50 d-flex flex-column p-5">
+        <div className="lumbarImgDiv w-50 d-flex flex-column">
           <img className="img-fluid" src={LumbarStretch} alt="" />
         </div>
       </section>
