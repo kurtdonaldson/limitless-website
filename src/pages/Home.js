@@ -40,9 +40,12 @@ function Home() {
             assessment and follow up with the appropriate means of physiotherapy
             treatment.
           </p>
-          <p>This may include manual therapy, dry needling, gym based rehabilitation and various other treatment modalities.</p>
+          <p>
+            This may include manual therapy, dry needling, gym based
+            rehabilitation and various other treatment modalities.
+          </p>
         </div>
-        <div className="lumbarImgDiv w-50 d-flex flex-column">
+        <div className="lumbarImgDiv w-50 d-flex flex-column align-items-center">
           <img className="img-fluid" src={LumbarStretch} alt="" />
         </div>
       </section>

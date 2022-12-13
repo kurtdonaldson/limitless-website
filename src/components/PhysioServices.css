@@ -46,20 +46,25 @@
   padding: 5px 0;
 }
 
-.physio_services_modal_text{
+.physio_services_modal_text {
   width: 25vw;
 }
 
 @media (max-width: 991px) {
   .physio_services button {
     width: 75vw;
-   
   }
-  
-  .physio_services_modal_text{
+
+  .physio_services_modal_text {
     width: 75vw;
   }
   .physio_services img {
     width: 75vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .physio-services-div h2 {
+    font-size: 2.7em;
   }
 }

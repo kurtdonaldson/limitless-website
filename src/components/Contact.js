@@ -20,38 +20,38 @@ function Contact() {
       <div>
         <img src={LimitlessLogo} alt="limitless_logo" width="250vw" />
       </div>
-      <div className="d-flex">
-        <div className="hours-footer w-25 pt-3">
+      <div className="d-flex flex-column flex-lg-row justify-content-around align-items-center align-items-lg-start">
+        <div className="hours-footer pt-3">
           <h2>HOURS</h2>
-          <ul className="hours_ul ps-0 pt-5">
+          <ul className="hours_ul ps-0 pt-3">
             <li className="d-flex justify-content-between">
               <span>Monday</span>
-              <span className="footer_dottedBorder"></span>
+              <span className="footer_dottedBorder pt-2"></span>
               <span>10.00am - 6.00pm</span>
             </li>
             <li className="d-flex justify-content-between">
               <span>Tuesday</span>
-              <span className="footer_dottedBorder"></span>
+              <span className="footer_dottedBorder pt-2"></span>
               <span>7.00am - 3.00pm</span>
             </li>
             <li className="d-flex justify-content-between">
               <span>Wednesday</span>
-              <span className="footer_dottedBorder"></span>
+              <span className="footer_dottedBorder pt-2"></span>
               <span>7.00am - 3.00pm</span>
             </li>
             <li className="d-flex justify-content-between">
               <span>Thursday</span>
-              <span className="footer_dottedBorder"></span>
+              <span className="footer_dottedBorder pt-2"></span>
               <span>8.00am - 4.00pm</span>
             </li>
             <li className="d-flex justify-content-between">
               <span>Friday</span>
-              <span className="footer_dottedBorder"></span>
+              <span className="footer_dottedBorder pt-2"></span>
               <span>7.00am - 2.00pm</span>
             </li>
           </ul>
         </div>
-        <div className="quicklinks-footer w-25 pt-3">
+        <div className="quicklinks-footer pt-3">
           <h2>QUICKLINKS</h2>
           <ul className="ps-0 pt-5">
             <li>
@@ -84,33 +84,40 @@ function Contact() {
             </li>
           </ul>
         </div>
-        <div className="contact-footer w-25 pt-3">
-          <h2>CONTACT US</h2>
-          <ul className="ps-0 pt-5">
-            <li>
-              <BsFillTelephoneFill /> 022 460 8079
-            </li>
-            <li>
-              <MdEmail /> info@limitlessphysio.co.nz
-            </li>
-            <li>
-              <a
-                className="pe-4"
-                href="https://www.facebook.com/limitlessphysio.co.nz/"
-                target="blank"
-              >
-                <BsFacebook />
-              </a>
-              <a
-                href="https://www.instagram.com/limitlessphysiotherapy/?hl=en"
-                target="blank"
-              >
-                <BsInstagram />
-              </a>
-            </li>
-          </ul>
+        <div className="contact-footer d-flex flex-column justify-content-center align-items-center pt-3">
+          <div>
+            <h2>CONTACT US</h2>
+          </div>
+
+          <div className="d-flex justify-content-between">
+            <div className="pe-4">
+              <p>
+                <BsFillTelephoneFill /> 022 460 8079
+              </p>
+            </div>
+            <div>
+              <p>
+                <MdEmail /> info@limitlessphysio.co.nz
+              </p>
+            </div>
+          </div>
+          <div>
+            <a
+              className="pe-4"
+              href="https://www.facebook.com/limitlessphysio.co.nz/"
+              target="blank"
+            >
+              <BsFacebook />
+            </a>
+            <a
+              href="https://www.instagram.com/limitlessphysiotherapy/?hl=en"
+              target="blank"
+            >
+              <BsInstagram />
+            </a>
+          </div>
         </div>
-        <div className="location-footer w-25 pt-3">
+        <div className="location-footer pt-3">
           <h2>LOCATION</h2>
           <Map location={location} zoomLevel={15} />
         </div>

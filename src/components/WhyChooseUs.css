@@ -6,7 +6,6 @@
 
 .why-us-div {
   font-family: "Poppins", sans-serif;
-
 }
 
 .why-us-div h2 {
@@ -23,13 +22,6 @@
 .why-us-container {
   width: 25vw;
   color: rgb(77, 77, 77);
-}
-
-@media (max-width: 991px) {
-  .why-us-container {
-    width: 75vw;
-    
-  }
 }
 
 .why-us-container img {
@@ -61,4 +53,16 @@
 .why_choose_icon {
   font-size: 8em;
   color: rgb(0, 165, 206);
+}
+
+@media (max-width: 991px) {
+  .why-us-container {
+    width: 75vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .why-us-div h2 {
+    font-size: 2.7em;
+  }
 }
