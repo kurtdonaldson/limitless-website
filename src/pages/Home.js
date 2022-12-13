@@ -11,8 +11,10 @@ function Home() {
   return (
     <div>
       <section className="homePage d-flex justify-content-center align-items-center">
-        <div className="d-flex flex-column align-items-center">
-          <h1 className="p-3 display-1 text-center">Limitless Physiotherapy</h1>
+        <div className="d-flex flex-column align-items-start align-items-lg-center ps-3">
+          <h1 className="p-3 pb-5 display-1 text-center">
+            Limitless Physiotherapy
+          </h1>
           <p>
             <MdLocationOn className="icons text-center" /> 80 Delta Ave, New
             Lynn, Auckland 0600
@@ -25,10 +27,21 @@ function Home() {
               <MdEmail className="icons" /> info@limitlessphysio.co.nz
             </p>
           </div>
+          <div className="align-self-center pt-5">
+            <a
+              className="book-button"
+              type="button"
+              href="https://nzappts.gensolve.com/limitless"
+              target="_blank"
+              rel="noreferrer"
+            >
+              BOOK ONLINE NOW
+            </a>
+          </div>
         </div>
       </section>
       <section className="whoWeAre d-flex flex-wrap flex-column flex-lg-row justify-space-between align-items-center">
-        <div className="missionDiv w-50 d-flex flex-column">
+        <div className="missionDiv d-flex flex-column">
           <h2 className="pb-3">OUR MISSION AND VISION</h2>
           <p>
             At Limitless Physiotherapy we are dedicated to providing top quality
@@ -45,7 +58,7 @@ function Home() {
             rehabilitation and various other treatment modalities.
           </p>
         </div>
-        <div className="lumbarImgDiv w-50 d-flex flex-column align-items-center">
+        <div className="lumbarImgDiv d-flex flex-column justify-content-center">
           <img className="img-fluid" src={LumbarStretch} alt="" />
         </div>
       </section>

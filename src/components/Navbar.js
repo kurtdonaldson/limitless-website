@@ -49,7 +49,7 @@ function Navbar() {
 
   return (
     <>
-      <Sidebar display={burgerMenu ? "d-flex" : "d-none"} />
+      <Sidebar display={burgerMenu ? "burger-navbar" : "d-none"} />
       <ListGroup
         className={
           white
