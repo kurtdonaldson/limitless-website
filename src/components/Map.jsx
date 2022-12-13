@@ -13,7 +13,7 @@ const LocationPin = ({ text }) => (
 );
 
 const Map = ({ location, zoomLevel }) => (
-  <div className="map">
+  <div className="map d-flex justify-content-center">
     <div className="google-map">
       <GoogleMapReact
         bootstrapURLKeys={{ key: process.env.REACT_APP_GOOGLE_MAP_API }}

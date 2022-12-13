@@ -9,37 +9,53 @@
 /* .google-map {
   width: 100%;
 } */
-
+/* Pin lcoation for smallest screen size */
 .pin {
   display: flex;
   align-items: center;
   width: 180px;
   color: var(--main-blue);
-  transform: translate(-29px, -78px);
+  transform: translate(-15px, -47px);
+}
+
+@media screen and (min-width: 992px) {
+  .pin {
+    transform: translate(-19px, -66px);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .pin {
+    transform: translate(-19px, -87px);
+  }
 }
 
 .pin-icon {
   font-size: 4rem;
   color: blue;
+  width: 100px;
 }
 
 .pin-text {
   font-size: 1.3em;
 }
 
-@media screen and (min-width: 799px) {
-  .google-map {
-    width: 200px;
-    height: 200px;
-  }
+.google-map {
+  width: 75vw;
+  height: 45vh;
+}
 
+@media screen and (min-width: 992px) {
+  .google-map {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+@media screen and (min-width: 799px) {
   .map-h2 {
     font-size: 1.3rem;
     font-weight: 400;
-  }
-
-  .pin {
-    width: 15vw;
   }
 
   .pin-icon {

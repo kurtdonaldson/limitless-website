@@ -40,26 +40,28 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className="whoWeAre d-flex flex-wrap flex-column flex-lg-row justify-space-between align-items-center">
-        <div className="missionDiv d-flex flex-column">
-          <h2 className="pb-3">OUR MISSION AND VISION</h2>
-          <p>
-            At Limitless Physiotherapy we are dedicated to providing top quality
-            physiotherapy treatment in order to help people reach their
-            functional goals.
-          </p>
-          <p>
-            We have longer session times which allows us to complete a thorough
-            assessment and follow up with the appropriate means of physiotherapy
-            treatment.
-          </p>
-          <p>
-            This may include manual therapy, dry needling, gym based
-            rehabilitation and various other treatment modalities.
-          </p>
-        </div>
-        <div className="lumbarImgDiv d-flex flex-column justify-content-center">
-          <img className="img-fluid" src={LumbarStretch} alt="" />
+      <section className="whoWeAre container">
+        <div className="mission-vision-row row">
+          <div className="missionDiv col-lg">
+            <h2 className="pb-">OUR MISSION AND VISION</h2>
+            <p>
+              At Limitless Physiotherapy we are dedicated to providing top
+              quality physiotherapy treatment in order to help people reach
+              their functional goals.
+            </p>
+            <p>
+              We have longer session times which allows us to complete a
+              thorough assessment and follow up with the appropriate means of
+              physiotherapy treatment.
+            </p>
+            <p>
+              This may include manual therapy, dry needling, gym based
+              rehabilitation and various other treatment modalities.
+            </p>
+          </div>
+          <div className="lumbarImgDiv col-lg">
+            <img className="img-fluid" src={LumbarStretch} alt="" />
+          </div>
         </div>
       </section>
       <Hours />

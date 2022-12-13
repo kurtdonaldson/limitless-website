@@ -22,10 +22,6 @@
 .quicklinks-footer {
   width: 15vw;
 }
-/* 
-.contact-footer {
-  width: 15vw;
-} */
 
 footer h2 {
   font-size: 1.1em;
@@ -74,8 +70,4 @@ footer h2 {
   .quicklinks-footer {
     display: none;
   }
-
-  /* .contact-footer {
-    width: 15vw;
-  } */
 }

@@ -1,32 +1,28 @@
 .hours_section {
-
   background-color: rgb(26, 32, 44);
   font-family: "Poppins", sans-serif;
-
 }
 
 .physio_hours {
   background-color: rgba(26, 32, 44, 255);
   color: white;
   border: 2px solid white;
-height: 65%;
-width: 45vw;
-
+  height: auto;
+  width: 75vw;
 }
 
-.hours_map_container{
+.hours_map_container {
   width: 45vw;
 }
 
 .physio_hours p {
   color: rgb(133, 133, 133);
-  
 }
 
 .physio_hours h2 {
   letter-spacing: 2px;
   color: rgb(0, 165, 206);
-  font-size: 1.5vw;
+  font-size: 1.3em;
 }
 
 .physio_hours ul {
@@ -35,18 +31,25 @@ width: 45vw;
 
 .dottedBorder {
   border-bottom: 1px dotted white;
-  width: 16vw;
+  width: 12vw;
   margin-bottom: 10px;
 }
 
-@media (max-width: 935px) {
+@media (min-width: 992px) {
+  .physio_hours {
+    height: 500px;
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 992px) {
   .hours_section {
     padding: 0;
   }
-  .physio_hours{
+  .hours_map_container {
     width: 80vw;
   }
-  .hours_map_container{
-    width: 80vw;
+  .dottedBorder {
+    display: none;
   }
 }

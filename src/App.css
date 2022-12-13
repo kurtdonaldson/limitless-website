@@ -48,27 +48,28 @@
 }
 
 /* Mission and vision styling */
+.mission-vision-row {
+  padding: 100px 0;
+}
 
 .missionDiv {
   color: rgb(77, 77, 77);
   line-height: 2;
   font-family: "Poppins", sans-serif;
-  padding: 5%;
 }
-
-/* .lumbarImgDiv {
-  padding: 100px 150px 100px 50px;
-} */
 
 .lumbarImgDiv img {
   filter: brightness(135%);
   width: 600px;
-  padding: 5%;
 }
 
 @media only screen and (max-width: 991px) {
   .missionDiv {
     padding: 20px 0;
+  }
+
+  .missionDiv h2 {
+    text-align: center;
   }
   .lumbarImgDiv img {
     padding: 20px 0;
