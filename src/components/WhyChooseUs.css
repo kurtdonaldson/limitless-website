@@ -6,8 +6,7 @@
 
 .why-us-div {
   font-family: "Poppins", sans-serif;
-  padding-bottom: 100px;
-  padding-top: 50px;
+
 }
 
 .why-us-div h2 {
@@ -22,8 +21,15 @@
 }
 
 .why-us-container {
-  width: 400px;
+  width: 25vw;
   color: rgb(77, 77, 77);
+}
+
+@media (max-width: 991px) {
+  .why-us-container {
+    width: 75vw;
+    
+  }
 }
 
 .why-us-container img {
@@ -40,6 +46,7 @@
 
 .why-us-container p {
   line-height: 2;
+  text-align: justify;
 }
 
 .why-us-container button {

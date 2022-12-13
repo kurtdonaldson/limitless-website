@@ -14,8 +14,8 @@ function WhyChooseUs() {
           points of difference.
         </p>
       </div>
-      <div className=" d-flex justify-content-around">
-        <div className="why-us-container d-flex flex-column align-items-center">
+      <div className=" d-flex flex-column flex-lg-row justify-content-center align-items-center align-items-lg-start">
+        <div className="why-us-container d-flex flex-column align-items-center p-4">
           <div>
             <BsFillPeopleFill className="why_choose_icon" />
           </div>
@@ -31,7 +31,7 @@ function WhyChooseUs() {
             </p>
           </div>
         </div>
-        <div className="why-us-container d-flex flex-column align-items-center">
+        <div className="why-us-container d-flex flex-column align-items-center p-4">
           <div>
             <BsPencilSquare className="why_choose_icon" />
           </div>
@@ -45,7 +45,7 @@ function WhyChooseUs() {
             </p>
           </div>
         </div>
-        <div className="why-us-container d-flex flex-column align-items-center">
+        <div className="why-us-container d-flex flex-column align-items-center p-4">
           <div>
             <BsFillBarChartFill className="why_choose_icon" />
           </div>
