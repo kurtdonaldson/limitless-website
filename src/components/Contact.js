@@ -23,7 +23,7 @@ function Contact() {
       <div className="d-flex flex-column flex-lg-row justify-content-around align-items-center align-items-lg-start">
         <div className="hours-footer pt-3">
           <h2>HOURS</h2>
-          <ul className="hours_ul ps-0 pt-3">
+          <ul className="hours_ul ps-0 pt-5">
             <li className="d-flex justify-content-between">
               <span>Monday</span>
               <span className="footer_dottedBorder pt-2"></span>
@@ -89,7 +89,7 @@ function Contact() {
             <h2>CONTACT US</h2>
           </div>
 
-          <div className="d-flex justify-content-between">
+          <div className="d-flex flex-row flex-lg-column justify-content-between pt-5">
             <div className="pe-4">
               <p>
                 <BsFillTelephoneFill /> 022 460 8079

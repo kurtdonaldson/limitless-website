@@ -23,6 +23,14 @@
   width: 15vw;
 }
 
+.contact-footer {
+  width: 15vw;
+}
+
+.location-footer {
+  width: 25vw;
+}
+
 footer h2 {
   font-size: 1.1em;
   letter-spacing: 0.2em;
@@ -69,5 +77,11 @@ footer h2 {
 
   .quicklinks-footer {
     display: none;
+  }
+  .contact-footer {
+    width: 75vw;
+  }
+  .location-footer {
+    width: 75vw;
   }
 }
