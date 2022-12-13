@@ -17,8 +17,10 @@ const location = {
 function Contact() {
   return (
     <footer id="footer" className="footer d-flex flex-column">
-      <div>
-        <img src={LimitlessLogo} alt="limitless_logo" width="250vw" />
+      <div className="footer-img-div d-flex ">
+        <div>
+          <img src={LimitlessLogo} alt="limitless_logo" width="250vw" />
+        </div>
       </div>
       <div className="d-flex flex-column flex-lg-row justify-content-around align-items-center align-items-lg-start">
         <div className="hours-footer pt-3">

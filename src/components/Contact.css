@@ -64,6 +64,11 @@ footer h2 {
   .footer h2 {
     text-align: center;
   }
+
+  .footer-img-div {
+    justify-content: center;
+  }
+
   .hours_ul {
     padding: 0;
   }
