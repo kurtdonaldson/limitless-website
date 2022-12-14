@@ -26,6 +26,7 @@
 .nav-links {
   padding: 10px;
   transition: 0.3s;
+  display: flex;
 }
 
 .nav-links:hover {
@@ -37,6 +38,7 @@
 
 .nav-links-dark {
   padding: 10px;
+  display: flex;
 }
 
 .nav-links-dark:hover {
