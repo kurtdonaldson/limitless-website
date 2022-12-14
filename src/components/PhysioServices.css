@@ -37,14 +37,11 @@
   line-height: 2;
 }
 
-.physio_services button {
-  border: none;
+/* .physio_services button {
   background-color: rgb(0, 165, 206);
-  color: white;
   width: 25vw;
-  border-radius: 15px;
-  padding: 5px 0;
-}
+  border: none;
+} */
 
 .physio_services_modal_text {
   width: 25vw;

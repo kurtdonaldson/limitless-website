@@ -1,0 +1,9 @@
+.modal-button {
+  background-color: rgb(0, 165, 206);
+  width: 25vw;
+  border: none;
+}
+
+.modal-content {
+    text-align: justify;
+  }

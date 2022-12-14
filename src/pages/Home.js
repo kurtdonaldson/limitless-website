@@ -41,7 +41,7 @@ function Home() {
         </div>
       </section>
       <section className="whoWeAre container">
-        <div className="mission-vision-row row">
+        <div className="mission-vision-row row ps-3 pe-3">
           <div className="missionDiv col-lg">
             <h2 className="pb-">OUR MISSION AND VISION</h2>
             <p>

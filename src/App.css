@@ -58,6 +58,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+.missionDiv p {
+  text-align: justify;
+}
+
 .lumbarImgDiv img {
   filter: brightness(135%);
   width: 600px;

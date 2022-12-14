@@ -17,6 +17,7 @@
 
 .physio_hours p {
   color: rgb(133, 133, 133);
+  text-align: justify;
 }
 
 .physio_hours h2 {
