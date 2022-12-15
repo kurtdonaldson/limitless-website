@@ -17,10 +17,19 @@
 .prices_card {
   background-color: rgba(26, 32, 44, 255);
   color: white;
-  padding: 50px;
+  padding: 10px 8vw;
   border: 3px solid rgba(204, 204, 204, 0.5);
 }
 
 .prices_card li {
   padding-bottom: 5px;
+}
+
+@media (max-width: 600px) {
+  .prices_card p {
+    font-size: 3vw;
+  }
+  .prices_card h3 {
+    font-size: 5vw;
+  }
 }

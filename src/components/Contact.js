@@ -86,7 +86,7 @@ function Contact() {
             </li>
           </ul>
         </div>
-        <div className="contact-footer d-flex flex-column justify-content-center align-items-center pt-3">
+        <div className="contact-footer d-flex flex-column justify-content-center align-items-center align-items-md-start pt-3">
           <div>
             <h2>CONTACT US</h2>
           </div>

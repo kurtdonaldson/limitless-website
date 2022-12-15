@@ -1,5 +1,5 @@
 .how_we_help {
-  height: 100vh;
+  /* height: 100vh; */
   background: linear-gradient(rgba(26, 32, 44, 0.829), rgba(38, 44, 97, 0.7)),
     url("../images/gym_pic.jpg");
   background-repeat: no-repeat;
@@ -11,8 +11,6 @@
 .how_we_help_card {
   background-color: white;
   color: rgb(77, 77, 77);
-  width: 900px;
-  padding: 30px 100px;
 }
 
 .how_we_help_card li {
@@ -27,9 +25,19 @@
   border: none;
   background-color: rgb(0, 165, 206);
   color: white;
-  width: 400px;
+
   border-radius: 15px;
   padding: 5px 0;
   text-align: center;
   text-decoration: none;
+}
+
+@media (max-width: 635px) {
+  .how_we_help_card {
+    background-color: rgba(255, 255, 255, 0.516);
+    color: black;
+  }
+  .how_we_help_card li {
+    font-size: 3vw;
+  }
 }

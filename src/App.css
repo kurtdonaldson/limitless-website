@@ -177,10 +177,10 @@
 
 /* Services page */
 .services_page {
-  height: 600px;
+  height: auto;
   color: white;
   background-color: rgba(26, 32, 44, 255);
-  padding: 200px 600px 0 40px;
+  padding: 180px 0 60px 5vw;
   font-family: "Poppins", sans-serif;
 }
 
@@ -206,6 +206,18 @@
   padding-bottom: 30px;
 }
 
+@media (max-width: 600px) {
+  .services_page h1 {
+    font-size: 2.5em;
+  }
+  .services_page h2 {
+    font-size: 1.2em;
+  }
+  .services_page p {
+    font-size: 1.1em;
+  }
+}
+
 .services_page .book-button {
   background-color: rgb(0, 165, 206);
   color: white;
@@ -215,20 +227,31 @@
   text-decoration: none;
 }
 
-.treatments_offered {
-  color: rgb(77, 77, 77);
-  padding: 100px;
+.services_pic img {
+  width: 70vw;
+  margin-bottom: 50px;
 }
 
-.treatments_offered img {
-  width: 600px;
+.physio_services li {
+  width: 40vw;
+  font-size: 3vw;
 }
 
-.treatments_offered ul {
-  width: 450px;
-}
+@media (min-width: 768px) {
+  .services_pic img {
+    width: 45vw;
+    margin-right: 5vw;
+  }
+  .physio_services {
+    width: 45vw;
+  }
 
-.treatments_offered li {
-  font-size: 1.4em;
-  padding-bottom: 10px;
+  .physio_services ul {
+    margin-top: 15px;
+  }
+  .physio_services li {
+    font-size: 1.4em;
+    padding-bottom: 10px;
+    width: 20vw;
+  }
 }
