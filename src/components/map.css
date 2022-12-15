@@ -38,6 +38,8 @@
 
 .pin-text {
   font-size: 1.3em;
+  color: black;
+  background-color: aliceblue;
 }
 
 .google-map {

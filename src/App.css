@@ -83,10 +83,10 @@
 /* About page styling */
 
 .about_page {
-  height: 600px;
+  height: auto;
   color: white;
   background-color: rgba(26, 32, 44, 255);
-  padding: 200px 600px 0 40px;
+  padding: 180px 0 60px 5vw;
   font-family: "Poppins", sans-serif;
 }
 
@@ -119,6 +119,7 @@
   padding: 15px 30px;
   letter-spacing: 2px;
   text-decoration: none;
+  margin: 0 auto;
 }
 
 .about_name {
@@ -128,23 +129,50 @@
   letter-spacing: 1.5px;
 }
 
-.profile_pic img {
-  width: 600px;
-  margin-left: 180px;
+@media (max-width: 600px) {
+  .about_page h1 {
+    font-size: 2.5em;
+  }
+  .about_page h2 {
+    font-size: 1.2em;
+  }
+  .about_page p {
+    font-size: 1.1em;
+  }
 }
 
-.profile_pic figcaption {
-  margin-left: 180px;
+.profile_pic {
+  margin-bottom: 50px;
+}
+
+.profile_pic img {
+  width: 80vw;
 }
 
 .profile_blurb div {
   color: rgb(77, 77, 77);
   line-height: 2;
-  width: 600px;
+  width: 80vw;
+}
+
+.profile_blurb p {
+  text-align: justify;
 }
 
 .img_caption_div {
-  margin: 100px;
+  margin: 60px 0;
+}
+
+@media (min-width: 768px) {
+  .profile_pic {
+    margin-right: 5vw;
+  }
+  .profile_pic img {
+    width: 40vw;
+  }
+  .profile_blurb div {
+    width: 40vw;
+  }
 }
 
 /* Services page */
