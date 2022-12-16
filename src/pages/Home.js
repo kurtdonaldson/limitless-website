@@ -6,6 +6,7 @@ import LumbarStretch from "../images/lumbar_rotation_pic.jpeg";
 import Hours from "../components/Hours";
 import PhysioServices from "../components/PhysioServices";
 import WhyChooseUs from "../components/WhyChooseUs";
+import ContactFooter from "../components/ContactFooter";
 
 function Home() {
   return (
@@ -67,6 +68,7 @@ function Home() {
       <Hours />
       <PhysioServices />
       <WhyChooseUs />
+      <ContactFooter />
     </div>
   );
 }

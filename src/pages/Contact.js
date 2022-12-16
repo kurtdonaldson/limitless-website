@@ -1,16 +1,20 @@
 import React from "react";
+import ContactForm from "../components/ContactForm";
+import ContactFooter from "../components/ContactFooter";
 
 function ContactPage() {
   return (
     <section>
       <header className="contact_page_header">
         <h2>
-          CONTACT <span>US</span>
+          GET <span>IN</span> TOUCH
         </h2>
         <h1>
-          Limitless <span>Physiotherapy</span>
+          Contact <span>Us</span>
         </h1>
-        <p>Located in the Invictus gym, 80 Delta avenue, New Lynn, Auckland.</p>
+        <p className="pe-3">
+          Located in the Invictus gym, 80 Delta avenue, New Lynn, Auckland.
+        </p>
         <div className="d-flex justify-content-center">
           <a
             className="book-button"
@@ -23,7 +27,12 @@ function ContactPage() {
           </a>
         </div>
       </header>
-      <main></main>
+      <main>
+        <ContactForm />
+      </main>
+      <footer>
+        <ContactFooter />
+      </footer>
     </section>
   );
 }

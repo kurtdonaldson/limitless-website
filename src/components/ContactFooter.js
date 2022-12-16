@@ -1,5 +1,5 @@
 import React from "react";
-import "../components/Contact.css";
+import "../components/ContactFooter.css";
 import LimitlessLogo from "../images/limitless_logo.png";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
@@ -14,7 +14,7 @@ const location = {
   lng: 174.68603692861316,
 };
 
-function Contact() {
+function ContactFooter() {
   return (
     <footer id="footer" className="footer d-flex flex-column">
       <div className="footer-img-div d-flex ">
@@ -128,4 +128,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default ContactFooter;

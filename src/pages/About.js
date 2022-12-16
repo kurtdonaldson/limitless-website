@@ -1,5 +1,6 @@
 import React from "react";
 import ProfilePic from "../images/side_lying.JPG";
+import ContactFooter from "../components/ContactFooter";
 
 function About() {
   return (
@@ -81,6 +82,9 @@ function About() {
           </div>
         </div>
       </main>
+      <footer>
+        <ContactFooter />
+      </footer>
     </section>
   );
 }
