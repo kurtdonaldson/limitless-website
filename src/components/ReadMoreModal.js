@@ -35,7 +35,11 @@ export default function ReadMoreModal({ title, content }) {
             <MDBModalBody className="modal-content">{content}</MDBModalBody>
 
             <MDBModalFooter>
-              <MDBBtn color="secondary" onClick={toggleShow}>
+              <MDBBtn
+                className="close_button_bottom"
+                color="secondary"
+                onClick={toggleShow}
+              >
                 Close
               </MDBBtn>
             </MDBModalFooter>

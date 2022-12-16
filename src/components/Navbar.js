@@ -93,9 +93,9 @@ function Navbar() {
             className={burgerMenu ? "contact_link d-none" : "contact_link"}
             as="li"
           >
-            <a href="#footer">
+            <Link style={{ textDecoration: "none" }} to="contact">
               <b className={white ? "nav-links-dark" : "nav-links"}>Contact</b>
-            </a>
+            </Link>
           </ListGroup.Item>
           <ListGroup.Item
             as="li"

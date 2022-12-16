@@ -5,5 +5,11 @@
 }
 
 .modal-content {
-    text-align: justify;
+  text-align: justify;
+}
+
+@media (max-width: 600px) {
+  .close_button_bottom {
+    width: 30px;
   }
+}
