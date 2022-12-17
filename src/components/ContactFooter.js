@@ -25,7 +25,7 @@ function ContactFooter() {
       <div className="d-flex flex-column flex-lg-row justify-content-around align-items-center align-items-lg-start">
         <div className="hours-footer pt-3">
           <h2>HOURS</h2>
-          <ul className="hours_ul ps-0 pt-5">
+          <ul className="hours_ul">
             <li className="d-flex justify-content-between">
               <span>Monday</span>
               <span className="footer_dottedBorder pt-2"></span>
@@ -55,7 +55,7 @@ function ContactFooter() {
         </div>
         <div className="quicklinks-footer pt-3">
           <h2>QUICKLINKS</h2>
-          <ul className="ps-0 pt-5">
+          <ul className="quicklinks-ul">
             <li>
               <Link className="text-decoration-none text-white" to="about">
                 About
@@ -86,12 +86,12 @@ function ContactFooter() {
             </li>
           </ul>
         </div>
-        <div className="contact-footer d-flex flex-column justify-content-center align-items-center align-items-md-start pt-3">
+        <div className="contact-footer d-flex flex-column justify-content-center align-items-center align-items-lg-start pt-3">
           <div>
             <h2>CONTACT US</h2>
           </div>
 
-          <div className="d-flex flex-row flex-lg-column justify-content-between pt-5">
+          <div className="contactUs-div d-flex flex-row flex-lg-column justify-content-between">
             <div className="pe-4">
               <p>
                 <BsFillTelephoneFill /> 022 460 8079

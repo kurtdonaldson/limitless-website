@@ -3,9 +3,9 @@ import { slide as Menu } from "react-burger-menu";
 import "../components/Sidebar.css";
 import LimitlessLogo from "../images/limitless_logo.png";
 import ListGroup from "react-bootstrap/ListGroup";
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-const Sidebar = ({ display }) => {
+const Sidebar = ({ display, backgroundColor }) => {
   return (
     <div className={display}>
       <img className="burger-limitless-logo" src={LimitlessLogo} alt="" />

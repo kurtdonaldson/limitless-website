@@ -23,8 +23,17 @@
   width: 15vw;
 }
 
+.quicklinks-ul {
+  padding: 0;
+  margin-top: 50px;
+}
+
 .contact-footer {
   width: 15vw;
+}
+
+.contactUs-div {
+  margin-top: 50px;
 }
 
 .location-footer {
@@ -42,7 +51,8 @@ footer h2 {
 }
 
 .hours_ul {
-  padding-right: 80px;
+  padding: 0 80px 0 0;
+  margin-top: 50px;
 }
 
 .hours_ul span:nth-last-child(2) {
@@ -57,7 +67,7 @@ footer h2 {
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .footer {
     font-size: 2.5vw;
   }
@@ -71,6 +81,7 @@ footer h2 {
 
   .hours_ul {
     padding: 0;
+    margin-top: 0;
   }
   .hours_ul span:nth-last-child(2) {
     width: 25vw;
@@ -89,5 +100,8 @@ footer h2 {
   .location-footer {
     width: 75vw;
     margin-top: 50px;
+  }
+  .contactUs-div {
+    margin-top: 0;
   }
 }

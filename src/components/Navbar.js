@@ -33,6 +33,7 @@ function Navbar() {
     };
   }, []);
 
+  //Changing background colour navbar when scrolling begins.
   const changeBackground = () => {
     if (window.scrollY >= 120) {
       setWhite(true);
@@ -49,7 +50,17 @@ function Navbar() {
 
   return (
     <>
-      <Sidebar display={burgerMenu ? "burger-navbar" : "d-none"} />
+      <Sidebar
+        className={"green"}
+        display={
+          burgerMenu
+            ? white
+              ? "burger-navbar-white"
+              : "burger-navbar"
+            : "d-none"
+        }
+        // backgroundColor={white ? "white" : "clear"}
+      />
       <ListGroup
         className={
           white

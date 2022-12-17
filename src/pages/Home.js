@@ -41,10 +41,10 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className="whoWeAre container">
-        <div className="mission-vision-row row ps-3 pe-3">
-          <div className="missionDiv col-lg">
-            <h2 className="pb-">OUR MISSION AND VISION</h2>
+      <section className="whoWeAre d-flex justify-content-center">
+        <div className="mission-vision-row d-flex flex-column flex-lg-row ps-2 pe-2">
+          <div className="missionDiv d-flex flex-column justify-content-center">
+            <h2>OUR MISSION AND VISION</h2>
             <p>
               At Limitless Physiotherapy we are dedicated to providing top
               quality physiotherapy treatment in order to help people reach
@@ -60,8 +60,10 @@ function Home() {
               rehabilitation and various other treatment modalities.
             </p>
           </div>
-          <div className="lumbarImgDiv col-lg">
-            <img className="img-fluid" src={LumbarStretch} alt="" />
+          <div className="lumbarImgDiv d-flex justify-content-center">
+            <div>
+              <img className="lumbarImg" src={LumbarStretch} alt="" />
+            </div>
           </div>
         </div>
       </section>

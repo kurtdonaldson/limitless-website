@@ -9,7 +9,7 @@ function PhysioServices() {
   return (
     <section className="physio-services-div text-center">
       <div>
-        <p>
+        <p className="text-center">
           <b className="howWeHelp">HOW WE HELP</b>
         </p>
         <h2>Our Physiotherapy Services</h2>
@@ -23,9 +23,9 @@ function PhysioServices() {
             <h3 className="text-center pb-3">PHYSIOTHERAPY</h3>
           </div>
           <div>
-            <ReadMoreModal 
-            title="PHYSIOTHERAPY"
-            content="Treatment is aimed to relieve your pain
+            <ReadMoreModal
+              title="PHYSIOTHERAPY"
+              content="Treatment is aimed to relieve your pain
             and restore function as quickly as possible. This can
             be through hands on techniques such as joint mobilisation
             and manipulation, dry needling and acupuncture, 
@@ -41,13 +41,14 @@ function PhysioServices() {
             <h3 className="text-center pb-3">DRY NEEDLING</h3>
           </div>
           <div>
-          <ReadMoreModal 
-          title="DRY NEEDLING"
-          content="At Limitless Physiotherapy we use a range of treatments to help get you pain free and moving easier. This includes dry needling.
+            <ReadMoreModal
+              title="DRY NEEDLING"
+              content="At Limitless Physiotherapy we use a range of treatments to help get you pain free and moving easier. This includes dry needling.
           Dry needling is a form of therapy that is used to treat muscle pain which is due to things called trigger points. These trigger points or &#34;muscle knots&#34; can cause pain locally and to the surrounding area and may limit daily functioning. They are taut bands of dysfunctional muscle which have remained contracted.
           This results in reduced blood flow to the muscle and causes a build-up of metabolic by-products which can result in pain to the area. Dry needling involves the insertion of fine, sterilised, single-use needles into the &#34;trigger points&#34; of the muscle.
           The insertion of a needle into a trigger point can create a twitch response in the muscle which causes these taut bands of muscle to relax and return to their normal tone. This can reduce pain and improve functioning.
-          Dry needling can help with a range of conditions such as cervicogenic headaches, jaw pain, back pain, shoulder pain, tennis elbow and lower limb pain."/>
+          Dry needling can help with a range of conditions such as cervicogenic headaches, jaw pain, back pain, shoulder pain, tennis elbow and lower limb pain."
+            />
           </div>
         </div>
         <div className="physio_services d-flex flex-column align-items-center m-4">
@@ -58,9 +59,9 @@ function PhysioServices() {
             <h3 className="text-center pb-3">GYM REHABILITATION</h3>
           </div>
           <div>
-          <ReadMoreModal 
-          title="GYM REHABILITATION"
-          content="Often following injury more than a home exercise 
+            <ReadMoreModal
+              title="GYM REHABILITATION"
+              content="Often following injury more than a home exercise 
           program is required to return you to full function. In 
           these cases our Physiotherapists may recommend a gym based rehabilitation program. Working 
           in the gym allows for a greater range of exercises under 
@@ -74,7 +75,7 @@ function PhysioServices() {
            programs may also be recommended for those looking to lose 
            weight or for those suffering from diabetes or post 
            cardiac surgery."
-          />
+            />
           </div>
         </div>
       </div>
