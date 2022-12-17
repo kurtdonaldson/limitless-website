@@ -47,6 +47,12 @@
   color: rgb(0, 204, 255);
 }
 
+@media (max-width: 600px) {
+  .homePage p {
+    font-size: 1em;
+  }
+}
+
 /* Mission and vision styling */
 .mission-vision-row {
   padding: 100px 0;

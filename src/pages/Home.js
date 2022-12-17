@@ -12,13 +12,13 @@ function Home() {
   return (
     <div>
       <section className="homePage d-flex justify-content-center align-items-center">
-        <div className="d-flex flex-column align-items-start align-items-lg-center ps-3">
+        <div className="d-flex flex-column align-items-start align-items-sm-center ps-3 pe-3">
           <h1 className="p-3 pb-5 display-1 text-center">
             Limitless Physiotherapy
           </h1>
           <p>
             <MdLocationOn className="icons text-center" /> 80 Delta Ave, New
-            Lynn, Auckland 0600
+            Lynn, Auckland
           </p>
           <div className="d-flex flex-column flex-sm-row phoneEmailContainer">
             <p className="pt-3 pe-4">
