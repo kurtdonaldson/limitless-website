@@ -36,8 +36,8 @@ function Services() {
             <img src={ScapularPic} alt="" />
           </div>
           <div className="physio_services d-flex flex-column">
-            <h2 className="text-center">PHYSIOTHERAPY SERVICES</h2>
-            <div className="d-flex">
+            <h2 className="text-center pt-0">PHYSIOTHERAPY SERVICES</h2>
+            <div className="d-flex justify-content-center">
               <div>
                 <ul>
                   <li>Joint mobilisation</li>
@@ -46,6 +46,7 @@ function Services() {
                   <li>Soft tissue massage</li>
                   <li>Joint manipulation</li>
                   <li>Postural assessment</li>
+                  <li>TEN’s (Transcutaneous electrical nerve stimulation)</li>
                 </ul>
               </div>
               <div>
@@ -55,7 +56,6 @@ function Services() {
                   <li>Chronic pain management</li>
                   <li>Exercise prescription</li>
                   <li>Taping</li>
-                  <li>TEN’s (Transcutaneous electrical nerve stimulation)</li>
                 </ul>
               </div>
             </div>

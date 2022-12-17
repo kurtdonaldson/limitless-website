@@ -8,7 +8,9 @@ import { Link } from "react-router-dom";
 const Sidebar = ({ display, backgroundColor }) => {
   return (
     <div className={display}>
-      <img className="burger-limitless-logo" src={LimitlessLogo} alt="" />
+      <Link to="/">
+        <img className="burger-limitless-logo" src={LimitlessLogo} alt="" />
+      </Link>
       <Menu>
         <ListGroup>
           <ListGroup.Item>

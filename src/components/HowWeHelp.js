@@ -5,11 +5,13 @@ function HowWeHelp() {
   return (
     <section className="how_we_help d-flex justify-content-center align-items-center mt-5 pt-4 pb-4">
       <div className="how_we_help_card d-flex flex-column pb-5">
-        <h2 className=" pt-4 pb-4 text-center">HOW WE CAN HELP YOU</h2>
+        <h2 className=" pt-4 pb-4 ps-1 pe-1 text-center">
+          HOW WE CAN HELP YOU
+        </h2>
         <h3 className="pb-3 text-center">
           Our team is qualified and experienced in treating:
         </h3>
-        <div className="d-flex pb-4 ps-3 pe-3">
+        <div className="d-flex pb-4 ps-3 pe-3 justify-content-center">
           <ul>
             <li>Low back pain</li>
             <li>Neck pain</li>
