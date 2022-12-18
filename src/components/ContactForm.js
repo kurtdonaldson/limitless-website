@@ -21,7 +21,7 @@ function ContactForm() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_j9jxafj', 'template_jfqavw9', form.current, 'CrQ21hl2Llen8ln3l')
+    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_PUBLIC_KEY)
       .then((result) => {
           setName("");
           setEmail("");
@@ -33,21 +33,6 @@ function ContactForm() {
           console.log('FAILED...', error);
       });
   };
-
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
-
-  //   emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
-  //     .then((result) => {
-  //         console.log(result.text);
-  //     }, (error) => {
-  //         console.log(error.text);
-  //     });
-  // };
-
-  // const handleChange = (e) => {
-  //   setToSend({ ...toSend, [e.target.name]: e.target.value });
-  // };
 
   return (
     <section className="d-flex flex-column flex-lg-row">
