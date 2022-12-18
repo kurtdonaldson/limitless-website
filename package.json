@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
     "@iconify/icons-mdi": "^1.2.34",
     "@iconify/react": "^4.0.1",
     "@testing-library/jest-dom": "^5.16.5",
@@ -10,6 +11,7 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.2",
+    "emailjs": "^4.0.1",
     "google-map-react": "^2.2.0",
     "mdb-react-ui-kit": "^5.0.0",
     "react": "^18.2.0",
