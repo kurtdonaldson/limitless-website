@@ -5,18 +5,18 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { BsFacebook } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
-import emailjs from '@emailjs/browser';
-import React, { useRef } from 'react';
+import emailjs from "@emailjs/browser";
+import React, { useRef } from "react";
 import { useState } from "react";
 
 function ContactForm() {
   const form = useRef();
 
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [phone, setPhone] = useState('');
-  const [subject, setSubject] = useState('');
-  const [message, setMessage] = useState('');
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -27,14 +27,23 @@ function ContactForm() {
     setSubject("");
     setMessage("");
 
-    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_PUBLIC_KEY)
-      .then((result) => {
-          alert('Message sent successfully!');
-          console.log('SUCCESS!', result.status, result.text);
-      }, (error) => {
-          alert('Message NOT sent', error);
-          console.log('FAILED...', error);
-      });
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        form.current,
+        process.env.REACT_APP_PUBLIC_KEY
+      )
+      .then(
+        (result) => {
+          alert("Message sent successfully!");
+          console.log("SUCCESS!", result.status, result.text);
+        },
+        (error) => {
+          alert("Message NOT sent", error);
+          console.log("FAILED...", error);
+        }
+      );
   };
 
   return (
@@ -56,11 +65,25 @@ function ContactForm() {
           <p>info@limitlessphysio.co.nz</p>
         </div>
         <div className="mt-2">
-          <BsFacebook className="contact_icons display-6 me-5" />
-          <BsInstagram className="contact_icons display-6" />
+          <a
+            href="https://www.facebook.com/limitlessphysio.co.nz/"
+            target="blank"
+          >
+            <BsFacebook className="contact_icons display-6 me-5" />
+          </a>
+          <a
+            href="https://www.instagram.com/limitlessphysiotherapy/?hl=en"
+            target="blank"
+          >
+            <BsInstagram className="contact_icons display-6" />
+          </a>
         </div>
       </div>
-      <Form ref={form} className="form_container m-5 rounded-1" onSubmit={sendEmail}>
+      <Form
+        ref={form}
+        className="form_container m-5 rounded-1"
+        onSubmit={sendEmail}
+      >
         <Form.Group className="mb-3" controlId="formName">
           <Form.Label>Name</Form.Label>
           <Form.Control
@@ -68,7 +91,7 @@ function ContactForm() {
             type="text"
             placeholder="Enter name"
             name="name"
-            onChange={event => setName(event.target.value)}
+            onChange={(event) => setName(event.target.value)}
             value={name}
             required
           />
@@ -80,7 +103,7 @@ function ContactForm() {
             type="email"
             placeholder="Enter email"
             name="email"
-            onChange={event => setEmail(event.target.value)}
+            onChange={(event) => setEmail(event.target.value)}
             value={email}
             required
           />
@@ -92,7 +115,7 @@ function ContactForm() {
             type="text"
             placeholder="Enter phone number"
             name="phone"
-            onChange={event => setPhone(event.target.value)}
+            onChange={(event) => setPhone(event.target.value)}
             value={phone}
           />
         </Form.Group>
@@ -103,7 +126,7 @@ function ContactForm() {
             type="text"
             placeholder="Enter subject"
             name="subject"
-            onChange={event => setSubject(event.target.value)}
+            onChange={(event) => setSubject(event.target.value)}
             value={subject}
             required
           />
@@ -115,7 +138,7 @@ function ContactForm() {
             as="textarea"
             rows={4}
             name="message"
-            onChange={event => setMessage(event.target.value)}
+            onChange={(event) => setMessage(event.target.value)}
             value={message}
             required
           />

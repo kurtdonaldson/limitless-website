@@ -42,6 +42,11 @@
   text-decoration: none;
 }
 
+.phoneEmailContainer a {
+  text-decoration: none;
+  color: white;
+}
+
 /* home page contact icons styling */
 .icons {
   color: rgb(0, 204, 255);

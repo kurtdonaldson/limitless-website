@@ -21,12 +21,16 @@ function Home() {
             Lynn, Auckland
           </p>
           <div className="d-flex flex-column flex-sm-row phoneEmailContainer">
-            <p className="pt-3 pe-4">
-              <BsFillTelephoneFill className="icons" /> 022 460 8079
-            </p>
-            <p className="pt-3">
-              <MdEmail className="icons" /> info@limitlessphysio.co.nz
-            </p>
+            <a href="tel:0224608079">
+              <p className="pt-3 pe-4">
+                <BsFillTelephoneFill className="icons" /> 022 460 8079
+              </p>
+            </a>
+            <a href="mailto:info@limitlessphysio.co.nz">
+              <p className="pt-3">
+                <MdEmail className="icons" /> info@limitlessphysio.co.nz
+              </p>
+            </a>
           </div>
           <div className="align-self-center pt-5">
             <a
