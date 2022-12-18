@@ -21,15 +21,18 @@ function ContactForm() {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    setName("");
+    setEmail("");
+    setPhone("");
+    setSubject("");
+    setMessage("");
+
     emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_PUBLIC_KEY)
       .then((result) => {
-          setName("");
-          setEmail("");
-          setPhone("");
-          setSubject("");
-          setMessage("");
+          alert('Message sent successfully!');
           console.log('SUCCESS!', result.status, result.text);
       }, (error) => {
+          alert('Message NOT sent', error);
           console.log('FAILED...', error);
       });
   };
