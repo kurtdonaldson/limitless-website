@@ -35,15 +35,17 @@ function HowWeHelp() {
             <li>Hip impingement/labral injuries</li>
           </ul>
         </div>
-        <a
-          className="book-button align-self-center ps-2 pe-2"
-          type="button"
-          href="https://nzappts.gensolve.com/limitless"
-          target="_blank"
-          rel="noreferrer"
-        >
-          BOOK ONLINE NOW
-        </a>
+        <div className="d-flex justify-content-center">
+          <a
+            className="book-button ps-2 pe-2"
+            type="button"
+            href="https://nzappts.gensolve.com/limitless"
+            target="_blank"
+            rel="noreferrer"
+          >
+            BOOK ONLINE NOW
+          </a>
+        </div>
       </div>
     </section>
   );
