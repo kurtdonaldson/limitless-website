@@ -22,7 +22,7 @@ function PhysioServices() {
           <div className="physio_services_modal_text pt-3">
             <h3 className="text-center pb-3">PHYSIOTHERAPY</h3>
           </div>
-          <div>
+          <div className="modal-btn-container">
             <ReadMoreModal
               title="PHYSIOTHERAPY"
               content="Treatment is aimed to relieve your pain
@@ -40,7 +40,7 @@ function PhysioServices() {
           <div className="physio_services_modal_text pt-3">
             <h3 className="text-center pb-3">DRY NEEDLING</h3>
           </div>
-          <div>
+          <div className="modal-btn-container">
             <ReadMoreModal
               title="DRY NEEDLING"
               content="At Limitless Physiotherapy we use a range of treatments to help get you pain free and moving easier. This includes dry needling.
@@ -58,7 +58,7 @@ function PhysioServices() {
           <div className="physio_services_modal_text pt-3">
             <h3 className="text-center pb-3">GYM REHABILITATION</h3>
           </div>
-          <div>
+          <div className="modal-btn-container">
             <ReadMoreModal
               title="GYM REHABILITATION"
               content="Often following injury more than a home exercise 

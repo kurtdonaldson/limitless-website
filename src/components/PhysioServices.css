@@ -41,11 +41,17 @@
   width: 25vw;
 }
 
-@media (max-width: 991px) {
-  .physio_services button {
-    width: 75vw;
-  }
+.modal-btn-container {
+  width: 100%;
+}
 
+@media (min-width: 992px) {
+  .modal-btn-container {
+    width: 82%;
+  }
+}
+
+@media (max-width: 991px) {
   .physio_services_modal_text {
     width: 75vw;
   }
