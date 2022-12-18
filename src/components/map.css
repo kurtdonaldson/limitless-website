@@ -13,7 +13,7 @@
 .pin {
   display: flex;
   align-items: center;
-  width: 180px;
+  width: 140px;
   color: var(--main-blue);
   transform: translate(-15px, -47px);
 }
@@ -37,9 +37,8 @@
 }
 
 .pin-text {
-  font-size: 1.3em;
-  /* color: black;
-  background-color: aliceblue; */
+  font-size: 1.1em;
+  color: black;
 }
 
 .google-map {
