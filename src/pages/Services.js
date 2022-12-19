@@ -1,5 +1,5 @@
 import React from "react";
-import ScapularPic from "../images/scapular_pic.JPG";
+import ScapularPic from "../images/scapular_pic.avif";
 import HowWeHelp from "../components/HowWeHelp";
 import Prices from "../components/Prices";
 import ContactFooter from "../components/ContactFooter";

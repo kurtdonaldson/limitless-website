@@ -4,7 +4,7 @@
 
 .homePage {
   background: linear-gradient(rgba(0, 5, 72, 0.829), rgba(72, 84, 192, 0.7)),
-    url("./images/swissball_back_stretch.jpg");
+    url("./images/swissball_back_stretch.avif");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -15,7 +15,7 @@
 @media (max-width: 991px) {
   .homePage {
     background: linear-gradient(rgba(0, 5, 72, 0.829), rgba(72, 84, 192, 0.7)),
-      url("./images/running_stairs.jpg");
+      url("./images/running_stairs.avif");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;

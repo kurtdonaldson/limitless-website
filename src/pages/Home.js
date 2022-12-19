@@ -2,7 +2,7 @@ import React from "react";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { MdLocationOn } from "react-icons/md";
-import LumbarStretch from "../images/lumbar_rotation_pic.jpeg";
+import LumbarStretch from "../images/lumbar_rotation_pic.avif";
 import Hours from "../components/Hours";
 import PhysioServices from "../components/PhysioServices";
 import WhyChooseUs from "../components/WhyChooseUs";

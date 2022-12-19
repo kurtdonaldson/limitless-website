@@ -1,5 +1,5 @@
 import React from "react";
-import ProfilePic from "../images/side_lying.JPG";
+import ProfilePic from "../images/side_lying.avif";
 import ContactFooter from "../components/ContactFooter";
 
 function About() {
