@@ -17,7 +17,11 @@ function PhysioServices() {
       <div className=" d-flex flex-column flex-lg-row justify-content-center align-items-center">
         <div className="physio_services d-flex flex-column align-items-center m-2">
           <div>
-            <img className="img-fluid" src={PhysioImg} alt="" />
+            <img
+              className="img-fluid"
+              src={PhysioImg}
+              alt="physiotherapist assessing clients shoulder"
+            />
           </div>
           <div className="physio_services_modal_text pt-3">
             <h3 className="text-center pb-3">PHYSIOTHERAPY</h3>
@@ -35,7 +39,11 @@ function PhysioServices() {
         </div>
         <div className="physio_services d-flex flex-column align-items-center m-4">
           <div>
-            <img className="img-fluid" src={AcupunctureImg} alt="" />
+            <img
+              className="img-fluid"
+              src={AcupunctureImg}
+              alt="physiotherapist performing acupuncture on patient"
+            />
           </div>
           <div className="physio_services_modal_text pt-3">
             <h3 className="text-center pb-3">DRY NEEDLING</h3>
@@ -53,7 +61,11 @@ function PhysioServices() {
         </div>
         <div className="physio_services d-flex flex-column align-items-center m-4">
           <div>
-            <img className="img-fluid" src={GymImg} alt="" />
+            <img
+              className="img-fluid"
+              src={GymImg}
+              alt="gym rehabilitation setup"
+            />
           </div>
           <div className="physio_services_modal_text pt-3">
             <h3 className="text-center pb-3">GYM REHABILITATION</h3>

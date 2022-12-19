@@ -33,7 +33,10 @@ function Services() {
       <main>
         <section className="treatments_offered d-flex flex-column flex-md-row align-items-center pt-5 justify-content-md-center align-items-md-start">
           <div className="services_pic">
-            <img src={ScapularPic} alt="" />
+            <img
+              src={ScapularPic}
+              alt="physiotherapy assessing patients shoulder in New Lynn, Auckland clinic"
+            />
           </div>
           <div className="physio_services d-flex flex-column">
             <h2 className="text-center pt-0">PHYSIOTHERAPY SERVICES</h2>

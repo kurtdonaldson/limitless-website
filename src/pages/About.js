@@ -29,7 +29,10 @@ function About() {
       </header>
       <main className="img_caption_div d-flex flex-column align-items-center flex-md-row justify-content-md-center align-items-md-start">
         <div className="profile_pic">
-          <img src={ProfilePic} alt="" />
+          <img
+            src={ProfilePic}
+            alt="physiotherapist treating patient in New Lynn, Auckland clinic"
+          />
           <figcaption>
             <p>
               <b className="about_name">Kurt Donaldson</b>{" "}

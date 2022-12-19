@@ -66,7 +66,11 @@ function Home() {
           </div>
           <div className="lumbarImgDiv d-flex justify-content-center">
             <div>
-              <img className="lumbarImg" src={LumbarStretch} alt="" />
+              <img
+                className="lumbarImg"
+                src={LumbarStretch}
+                alt="physiotherapy treating client with lower back pain"
+              />
             </div>
           </div>
         </div>
