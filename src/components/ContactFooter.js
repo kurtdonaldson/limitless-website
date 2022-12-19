@@ -77,12 +77,14 @@ function ContactFooter() {
               </Link>
             </li>
             <li>
-              <Link
+              <a
+                href="https://nzappts.gensolve.com/limitless"
                 className="text-decoration-none text-white"
-                to="https://nzappts.gensolve.com/limitless"
+                target="_blank"
+                rel="noreferrer"
               >
                 Book Online
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
