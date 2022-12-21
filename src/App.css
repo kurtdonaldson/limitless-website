@@ -85,7 +85,6 @@
 
 .lumbarImg {
   width: 75vw;
-  filter: brightness(155%);
 }
 
 @media (min-width: 992px) {
