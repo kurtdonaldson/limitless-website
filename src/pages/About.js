@@ -79,7 +79,7 @@ function About() {
               </p>
               <p>
                 He has also been the team physiotherapist for several sports
-                teams including various rugby and ruby league teams.
+                teams including various rugby and rugby league teams.
               </p>
             </div>
           </div>
