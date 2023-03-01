@@ -10,7 +10,7 @@ const location = {
 
 function Hours() {
   return (
-    <section className="hours_section d-flex flex-column flex-lg-row justify-content-center align-items-center pt-4 pb-4 ps-5 pe-5">
+    <section className="hours_section d-flex flex-column flex-xl-row justify-content-around align-items-center pt-4 pb-4 ps-5 pe-5">
       <div className="physio_hours p-2">
         <h2 className="pb-4">NEW LYNN CLINIC</h2>
         <p className="pb-3 text-justify">

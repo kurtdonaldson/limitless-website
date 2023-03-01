@@ -1,10 +1,18 @@
 import React from "react";
 import ContactForm from "../components/ContactForm";
 import ContactFooter from "../components/ContactFooter";
+import { Helmet } from "react-helmet";
+//Import Helmet package to change title when navigating to different page.
+//Used for title tag optimisation
 
 function ContactPage() {
   return (
     <section>
+      <Helmet>
+        <title>
+          Contact Us | Limitless Physiotherapy | Physiotherapist New Lynn
+        </title>
+      </Helmet>
       <header className="contact_page_header">
         <h2>
           GET <span>IN</span> TOUCH

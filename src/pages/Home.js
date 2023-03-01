@@ -7,11 +7,17 @@ import Hours from "../components/Hours";
 import PhysioServices from "../components/PhysioServices";
 import WhyChooseUs from "../components/WhyChooseUs";
 import ContactFooter from "../components/ContactFooter";
+import { Helmet } from "react-helmet";
 
 function Home() {
   return (
     <div>
       <section className="homePage d-flex justify-content-center align-items-center">
+        <Helmet>
+          <title>
+            Limitless Physiotherapy | West Auckland Physiotherapy Services
+          </title>
+        </Helmet>
         <div className="d-flex flex-column align-items-start align-items-sm-center ps-3 pe-3">
           <h1 className="p-3 pb-5 display-1 text-center">
             Limitless Physiotherapy

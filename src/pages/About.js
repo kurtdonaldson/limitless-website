@@ -1,10 +1,16 @@
 import React from "react";
 import ProfilePic from "../images/side_lying.avif";
 import ContactFooter from "../components/ContactFooter";
+import { Helmet } from "react-helmet";
 
 function About() {
   return (
     <section>
+      <Helmet>
+        <title>
+          About Us | Limitless Physiotherapy Team | Physio New Lynn Auckland
+        </title>
+      </Helmet>
       <header className="about_page">
         <h2>ABOUT US</h2>
         <h1>

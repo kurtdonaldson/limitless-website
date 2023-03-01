@@ -3,10 +3,17 @@ import ScapularPic from "../images/scapular_pic.avif";
 import HowWeHelp from "../components/HowWeHelp";
 import Prices from "../components/Prices";
 import ContactFooter from "../components/ContactFooter";
+import { Helmet } from "react-helmet";
 
 function Services() {
   return (
     <section>
+      <Helmet>
+        <title>
+          Services Physiotherapy | Physical Therapy Services | Limitless
+          Physiotherapy Auckland
+        </title>
+      </Helmet>
       <header className="services_page">
         <h2>SERVICES AND PRICES</h2>
         <h1>
