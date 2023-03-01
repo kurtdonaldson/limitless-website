@@ -12,6 +12,10 @@ function ContactPage() {
         <title>
           Contact Us | Limitless Physiotherapy | Physiotherapist New Lynn
         </title>
+        <meta
+          name="description"
+          content="To make an appointment at Limitless Physio, call, text or book online through our website."
+        />
       </Helmet>
       <header className="contact_page_header">
         <h2>

@@ -13,6 +13,10 @@ function Services() {
           Services Physiotherapy | Physical Therapy Services | Limitless
           Physiotherapy Auckland
         </title>
+        <meta
+          name="description"
+          content="Specialising in pain and injury management. Limitless Physiotherapy provides a range of services including acupuncture/dry needling, cupping, massage and gym-based rehabilitation."
+        />
       </Helmet>
       <header className="services_page">
         <h2>SERVICES AND PRICES</h2>

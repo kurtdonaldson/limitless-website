@@ -10,6 +10,11 @@ function About() {
         <title>
           About Us | Limitless Physiotherapy Team | Physio New Lynn Auckland
         </title>
+        <meta
+          name="description"
+          content="Located in West Auckland, Limitless Physiotherapy is focused on providing high quality physiotherapy 
+      treatment in order to help people recover faster and move easier."
+        />
       </Helmet>
       <header className="about_page">
         <h2>ABOUT US</h2>

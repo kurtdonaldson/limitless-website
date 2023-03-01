@@ -17,6 +17,11 @@ function Home() {
           <title>
             Limitless Physiotherapy | West Auckland Physiotherapy Services
           </title>
+          <meta
+            name="description"
+            content="Located in New Lynn, West Auckland, Limitless Physiotherapy is focused on providing high quality physiotherapy 
+      treatment in order to help people recover faster and move easier."
+          />
         </Helmet>
         <div className="d-flex flex-column align-items-start align-items-sm-center ps-3 pe-3">
           <h1 className="p-3 pb-5 display-1 text-center">
