@@ -1,0 +1,25 @@
+.not-found-container {
+  background: linear-gradient(
+    to top,
+    rgb(139, 206, 245) 82%,
+    rgb(0, 29, 72) 82%
+  );
+}
+
+.not-found-content {
+  height: 100vh;
+  padding-top: 230px;
+}
+
+.navlink-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.navlink {
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 1.5em;
+  font-weight: 600;
+}
