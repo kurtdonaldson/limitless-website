@@ -68,14 +68,12 @@ function ContactForm() {
           <a
             href="https://www.facebook.com/limitlessphysio.co.nz/"
             target="blank"
-            aria-label="limitless physio facebook link"
           >
             <BsFacebook className="contact_icons display-6 me-5" />
           </a>
           <a
             href="https://www.instagram.com/limitlessphysiotherapy/?hl=en"
             target="blank"
-            aria-label="limitless physio instagram link"
           >
             <BsInstagram className="contact_icons display-6" />
           </a>

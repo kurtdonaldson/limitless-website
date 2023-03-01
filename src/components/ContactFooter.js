@@ -110,12 +110,14 @@ function ContactFooter() {
               className="pe-4"
               href="https://www.facebook.com/limitlessphysio.co.nz/"
               target="blank"
+              aria-label="limitless physio facebook link"
             >
               <BsFacebook />
             </a>
             <a
               href="https://www.instagram.com/limitlessphysiotherapy/?hl=en"
               target="blank"
+              aria-label="limitless physio instagram link"
             >
               <BsInstagram />
             </a>
