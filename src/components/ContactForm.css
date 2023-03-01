@@ -7,7 +7,7 @@ h2 {
 
 h3 {
   letter-spacing: 2px;
-  color: rgb(0, 165, 206);
+  color: rgb(0, 147, 184);
   font-size: 1.5em;
 }
 
@@ -16,7 +16,7 @@ p {
 }
 
 .contact_icons {
-  color: rgb(0, 165, 206);
+  color: rgb(0, 147, 184);
 }
 
 .form_container {
@@ -25,7 +25,7 @@ p {
 }
 
 .form_submit_btn {
-  background-color: rgb(0, 165, 206);
+  background-color: rgb(0, 147, 184);
   color: white;
   padding: 15px 30px;
   letter-spacing: 2px;
