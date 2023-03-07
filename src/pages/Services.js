@@ -10,8 +10,8 @@ function Services() {
     <section>
       <Helmet>
         <title>
-          Services Physiotherapy | Physical Therapy Services | Limitless
-          Physiotherapy Auckland
+          Services | Physical Therapy Services | Limitless Physiotherapy
+          Auckland
         </title>
         <meta
           name="description"

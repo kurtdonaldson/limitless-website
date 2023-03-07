@@ -8,7 +8,7 @@ function About() {
     <section>
       <Helmet>
         <title>
-          About Us | Limitless Physiotherapy Team | Physio New Lynn Auckland
+          About | Limitless Physiotherapy Team | Physio New Lynn Auckland
         </title>
         <meta
           name="description"
