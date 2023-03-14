@@ -13,7 +13,7 @@ function Prices() {
               <p>New Injury /Initial Consultation 45-60 min</p>
             </div>
             <div>
-              <p>$28</p>{" "}
+              <p>$25</p>{" "}
             </div>
           </div>
           <div className="d-flex justify-content-between">
@@ -21,7 +21,7 @@ function Prices() {
               <p>Follow Up Consultation 30-45 min</p>{" "}
             </div>
             <div>
-              <p>$22</p>{" "}
+              <p>$20</p>{" "}
             </div>
           </div>
         </div>
@@ -33,7 +33,7 @@ function Prices() {
               <p>New Injury /Initial Consultation 45-60 min</p>{" "}
             </div>
             <div>
-              <p>$22</p>{" "}
+              <p>$20</p>{" "}
             </div>
           </div>
           <div className="d-flex justify-content-between">
@@ -41,7 +41,7 @@ function Prices() {
               <p>Follow Up Consultation 30-45 min</p>{" "}
             </div>
             <div>
-              <p>$18</p>{" "}
+              <p>$15</p>{" "}
             </div>
           </div>
         </div>
