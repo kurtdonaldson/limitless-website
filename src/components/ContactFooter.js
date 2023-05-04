@@ -57,22 +57,20 @@ function ContactFooter() {
           <h2>QUICKLINKS</h2>
           <ul className="quicklinks-ul">
             <li>
-              <Link className="text-decoration-none text-white" to="about">
+              <Link className="text-decoration-none text-white" to="../about">
                 About
               </Link>
             </li>
             <li>
-              <Link className="text-decoration-none text-white" to="services">
+              <Link
+                className="text-decoration-none text-white"
+                to="../services"
+              >
                 Services
               </Link>
             </li>
             <li>
-              <Link className="text-decoration-none text-white" to="conditions">
-                Conditions
-              </Link>
-            </li>
-            <li>
-              <Link className="text-decoration-none text-white" to="contact">
+              <Link className="text-decoration-none text-white" to="../contact">
                 Contact
               </Link>
             </li>
