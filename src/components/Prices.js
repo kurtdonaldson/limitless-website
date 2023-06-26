@@ -21,7 +21,7 @@ function Prices() {
               <p>Follow Up Consultation 30-45 min</p>{" "}
             </div>
             <div>
-              <p>$20</p>{" "}
+              <p>$25</p>{" "}
             </div>
           </div>
         </div>
@@ -41,7 +41,7 @@ function Prices() {
               <p>Follow Up Consultation 30-45 min</p>{" "}
             </div>
             <div>
-              <p>$15</p>{" "}
+              <p>$20</p>{" "}
             </div>
           </div>
         </div>
