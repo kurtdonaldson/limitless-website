@@ -4,7 +4,7 @@ import "../components/HowWeHelp.css";
 function HowWeHelp() {
   return (
     <section className="how_we_help d-flex justify-content-center align-items-center mt-5 pt-4 pb-4">
-      <div className="how_we_help_card d-flex flex-column pb-5">
+      <div className="how_we_help_card d-flex flex-column pb-5 ps-2 pe-2">
         <h2 className=" pt-4 pb-4 ps-1 pe-1 text-center">
           HOW WE CAN HELP YOU
         </h2>
