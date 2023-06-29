@@ -76,7 +76,7 @@ function Home() {
             </p>
           </div>
           <div className="lumbarImgDiv d-flex justify-content-center">
-            <div>
+            <div className="animated fadeInRight">
               <img
                 className="lumbarImg"
                 src={LumbarStretch}

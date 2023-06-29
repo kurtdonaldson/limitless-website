@@ -66,6 +66,9 @@
 
 .lumbarImgDiv {
   width: 80vw;
+  animation: fadeInAnimation ease 2.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 .missionDiv {
@@ -113,6 +116,17 @@
   }
   .lumbarImgDiv img {
     padding: 20px 0;
+  }
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+    transform: translateX(500px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
   }
 }
 
