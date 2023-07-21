@@ -8,6 +8,7 @@ import PhysioServices from "../components/PhysioServices";
 import WhyChooseUs from "../components/WhyChooseUs";
 import ContactFooter from "../components/ContactFooter";
 import { Helmet } from "react-helmet";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function Home() {
   return (
@@ -76,11 +77,18 @@ function Home() {
             </p>
           </div>
           <div className="lumbarImgDiv d-flex justify-content-center">
-            <div>
-              <img
+            <div className="animated fadeInRight">
+              {/* <img
                 className="lumbarImg"
                 src={LumbarStretch}
                 alt="physiotherapy treating client with lower back pain"
+                loading="lazy"
+              /> */}
+              <LazyLoadImage
+                className="lumbarImg physioImageFadeRight"
+                src={LumbarStretch}
+                alt="physiotherapy treating client with lower back pain"
+                loading="lazy"
               />
             </div>
           </div>
