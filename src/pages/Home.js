@@ -23,15 +23,15 @@ function Home() {
       treatment in order to help people recover faster and move easier."
           />
         </Helmet>
-        <div className="d-flex flex-column align-items-start align-items-sm-center ps-3 pe-3">
+        <div className="d-flex flex-column align-items-start align-items-sm-center">
           <h1 className="p-3 pb-5 display-1 text-center">
             Limitless Physiotherapy
           </h1>
-          <p>
+          <p className="ps-3">
             <MdLocationOn className="icons text-center" /> 80 Delta Ave, New
             Lynn, Auckland
           </p>
-          <div className="d-flex flex-column flex-sm-row phoneEmailContainer">
+          <div className="d-flex flex-column flex-sm-row phoneEmailContainer ps-3">
             <a href="tel:0224608079">
               <p className="pt-3 pe-4">
                 <BsFillTelephoneFill className="icons" /> 022 460 8079
