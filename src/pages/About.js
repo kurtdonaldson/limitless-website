@@ -43,6 +43,7 @@ function About() {
           <img
             src={ProfilePic}
             alt="physiotherapist treating patient in New Lynn, Auckland clinic"
+            className="physioImageFadeLeft"
           />
           <figcaption>
             <p>

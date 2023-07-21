@@ -47,6 +47,7 @@ function Services() {
             <img
               src={ScapularPic}
               alt="physiotherapy assessing patients shoulder in New Lynn, Auckland clinic"
+              className="physioImageFadeLeft"
             />
           </div>
           <div className="physio_services d-flex flex-column">

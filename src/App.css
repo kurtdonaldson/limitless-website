@@ -87,6 +87,18 @@
   width: 75vw;
 }
 
+.physioImageFadeRight {
+  animation: fadeInAnimationRight ease 2.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.physioImageFadeLeft {
+  animation: fadeInAnimationLeft ease 2.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
 @media (min-width: 992px) {
   .missionDiv {
     width: 45vw;
@@ -113,6 +125,28 @@
   }
   .lumbarImgDiv img {
     padding: 20px 0;
+  }
+}
+
+@keyframes fadeInAnimationRight {
+  0% {
+    opacity: 0;
+    transform: translateX(500px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes fadeInAnimationLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-500px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
   }
 }
 
