@@ -38,9 +38,9 @@ function Home() {
                 <BsFillTelephoneFill className="icons" /> 022 460 8079
               </p>
             </a>
-            <a href="mailto:info@limitlessphysio.co.nz">
+            <a href="mailto:kurtlimitlessphysio@gmail.com">
               <p className="pt-3">
-                <MdEmail className="icons" /> info@limitlessphysio.co.nz
+                <MdEmail className="icons" /> kurtlimitlessphysio@gmail.com
               </p>
             </a>
           </div>
@@ -78,12 +78,6 @@ function Home() {
           </div>
           <div className="lumbarImgDiv d-flex justify-content-center">
             <div className="animated fadeInRight">
-              {/* <img
-                className="lumbarImg"
-                src={LumbarStretch}
-                alt="physiotherapy treating client with lower back pain"
-                loading="lazy"
-              /> */}
               <LazyLoadImage
                 className="lumbarImg physioImageFadeRight"
                 src={LumbarStretch}

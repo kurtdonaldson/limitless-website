@@ -62,7 +62,7 @@ function ContactForm() {
         </div>
         <div className="d-flex">
           <MdEmail className="contact_icons mt-1 me-2" />
-          <p>info@limitlessphysio.co.nz</p>
+          <p>kurtlimitlessphysio@gmail.com</p>
         </div>
         <div className="mt-2">
           <a
