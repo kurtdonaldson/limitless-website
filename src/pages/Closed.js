@@ -8,7 +8,7 @@ const Closed = () => {
     >
       <p>Limitless Physiotherapy is now closed</p>
       <p>If you require any information you can still contact us @</p>
-      <p>kurtlimitlessphysio.co.nz</p>
+      <p>kurtlimitlessphysio@gmail.com</p>
     </div>
   );
 };
